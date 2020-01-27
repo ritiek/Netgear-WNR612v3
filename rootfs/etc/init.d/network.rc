@@ -1,0 +1,36 @@
+#!/bin/sh
+
+#Up the interfaces (eth0 & eth1) ie.
+#ifconfig eth0 up
+#ifconfig eth1 up
+echo 0 >/proc/rtk_vlan_support
+
+# modify dst-cache setting
+echo 8192 > /proc/sys/net/ipv4/route/max_size
+echo 4096 > /proc/sys/net/ipv4/route/gc_thresh
+echo "20" > /proc/sys/net/ipv4/route/gc_elasticity
+echo 35 > /proc/sys/net/ipv4/route/gc_interval
+echo  60 > /proc/sys/net/ipv4/route/secret_interval
+echo 10 > /proc/sys/net/ipv4/route/gc_timeout
+ 
+echo "600" > /proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_established
+echo "60" > /proc/sys/net/ipv4/netfilter/ip_conntrack_udp_timeout
+echo "20" > /proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_time_wait
+echo "20" > /proc/sys/net/ipv4/netfilter/ip_conntrack_tcp_timeout_close
+echo "90" > /proc/sys/net/ipv4/netfilter/ip_conntrack_udp_timeout_stream
+echo "90" > /proc/sys/net/ipv4/netfilter/ip_conntrack_generic_timeout
+echo 1 > /proc/sys/net/ipv4/ip_forward
+echo "1048576" > /proc/sys/net/ipv4/rt_cache_rebuild_count
+#echo 2048 > /proc/sys/net/core/hot_list_length
+echo "4096" > /proc/sys/net/netfilter/nf_conntrack_expect_max
+echo "4096" > /proc/sys/net/netfilter/nf_conntrack_max
+
+echo "48" > /proc/sys/net/ipv4/ipfrag_max_dist
+echo "10">/proc/sys/net/ipv4/ipfrag_time
+echo "300">/proc/sys/net/ipv4/ipfrag_secret_interval
+echo "98304">/proc/sys/net/ipv4/ipfrag_low_thresh
+echo "131072">/proc/sys/net/ipv4/ipfrag_high_thresh
+echo "4096" > /proc/sys/net/nf_conntrack_max
+
+echo 2 > /proc/sys/vm/drop_caches
+echo 1024 > /proc/sys/vm/min_free_kbytes

@@ -1,0 +1,7 @@
+port 52881
+max_age 1800
+uuid uuid:63041253-1019-2006-1228-00000000004c
+root_desc_name simplecfg
+known_service_types upnp:rootdevice
+known_service_types urn:schemas-wifialliance-org:device:WFADevice:
+known_service_types urn:schemas-wifialliance-org:service:WFAWLANConfig:

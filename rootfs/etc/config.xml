@@ -1,0 +1,2496 @@
+<InternetGatewayDevice t="o">
+	<DeviceSummary t="s" > </DeviceSummary>
+	<PhysicButtonType t="b" >0</PhysicButtonType>
+	<PhysicWifiMode t="u" >-1</PhysicWifiMode>
+	<LANDeviceNumberOfEntries t="u" >2</LANDeviceNumberOfEntries>
+	<WANDeviceNumberOfEntries t="u" >1</WANDeviceNumberOfEntries>
+	<X_TWSZ-COM_Lang t="o">
+		<X_TWSZ-COM_Languagewillset t="s" Cache="1" >en_us</X_TWSZ-COM_Languagewillset>
+		<X_TWSZ-COM_Language t="s" Cache="1" >en_us</X_TWSZ-COM_Language>
+		<X_TWSZ-COM_UpdateStatus  t="s" ></X_TWSZ-COM_UpdateStatus>
+                <X_TWSZ-COM_ImageUpgradeOpt t="s" Cache="1" >Detect</X_TWSZ-COM_ImageUpgradeOpt>
+                <X_TWSZ-COM_CurrentVersion t="s" Cache="1" >0</X_TWSZ-COM_CurrentVersion>
+                <X_TWSZ-COM_DetectedVersion t="s" Cache="1" >0</X_TWSZ-COM_DetectedVersion>
+	</X_TWSZ-COM_Lang>
+	<DeviceInfo t="o">
+		<Manufacturer t="s"	>NETGEAR</Manufacturer>
+		<ManufacturerOUI t="s" >001EE3</ManufacturerOUI>
+		<ModelName t="s" >WNR612v3</ModelName>
+		<Description t="s" >Netgear Wireless Router</Description>
+		<ProductClass t="s" >WNR612v3</ProductClass>
+		<SerialNumber t="s" >001EE3010203</SerialNumber>
+		<HardwareVersion t="s" >WNR612v3</HardwareVersion>
+		<SoftwareVersion t="s" >V1.0.6.1</SoftwareVersion>
+		<ModemFirmwareVersion t="s"	>V1.0.6.1</ModemFirmwareVersion>
+		<ModemConfigurationVersion t="s" >Cfg_1.00</ModemConfigurationVersion>
+		<EnabledOptions	t="s" > </EnabledOptions>
+		<AdditionalHardwareVersion t="s" > </AdditionalHardwareVersion>
+		<AdditionalSoftwareVersion t="s" > </AdditionalSoftwareVersion>
+		<SpecVersion t="s" >1.0</SpecVersion>
+		<ProvisioningCode t="s" > </ProvisioningCode>
+		<UpTime t="u" > </UpTime>
+		<GuiLanguageVersion t="s" >V1.0.0.78</GuiLanguageVersion>
+		<FirstUseDate t="d" ></FirstUseDate>
+		<DeviceLog t="s" ></DeviceLog>
+		<VendorConfigFileNumberOfEntries t="u"	>1</VendorConfigFileNumberOfEntries>
+		<VendorConfigFile t="o"	MaxIdx="1" >
+			<1 t="o">
+				<Name t="s"	> </Name>
+				<Version t="s" > </Version>
+				<Date t="d" >	</Date>
+				<Description t="s"	> </Description>
+			</1>
+		</VendorConfigFile>
+		<X_TWSZ-COM_Language t="s" >en_us</X_TWSZ-COM_Language>
+		<X_TWSZ-COM_Region t="s" ></X_TWSZ-COM_Region>
+		<X_TWSZ-COM_PortNum t="u" ></X_TWSZ-COM_PortNum>
+	</DeviceInfo>
+	<X_TWSZ-COM_VLAN t="o" >
+		<Enable	  t="b">0</Enable>
+		<DefaultVlan t="i">0</DefaultVlan>
+		<Marking t="o" MaxIdx="2">
+			<1 t="o">
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<ServiceType t="s">Local</ServiceType>
+				<InterfaceList t="s">0,1</InterfaceList>
+				<SSIDList t="s"> </SSIDList>
+				<VLANIDUntag t="b"> </VLANIDUntag>
+				<VLANIDMark	t="i">2</VLANIDMark>
+				<EthernetPriorityMark t="i">0</EthernetPriorityMark>
+			</1>
+			<2 t="o">
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<ServiceType t="s">Tr069</ServiceType>
+				<InterfaceList t="s"> </InterfaceList>
+				<SSIDList t="s"> </SSIDList>
+				<VLANIDUntag t="b"> </VLANIDUntag>
+				<VLANIDMark	t="i">4</VLANIDMark>
+				<EthernetPriorityMark t="i">0</EthernetPriorityMark>
+			</2>
+		</Marking>
+	</X_TWSZ-COM_VLAN>
+	<X_TWSZ-COM_FTPD t="o" >
+			<FtpEnable 	t="b">0</FtpEnable>
+			<FtpPort  t="u">21</FtpPort>
+			<Status  t="b">0</Status>
+			<X_TWSZ-COM_FtpAccountMaxEntries t="u"	 >10</X_TWSZ-COM_FtpAccountMaxEntries>
+			<X_TWSZ-COM_FtpAccountCurEntries t="u"	>0</X_TWSZ-COM_FtpAccountCurEntries>
+			<Account t="o" MaxNode="X_TWSZ-COM_FtpAccountMaxEntries" CurNode="X_TWSZ-COM_FtpAccountCurEntries" >
+			</Account>
+	</X_TWSZ-COM_FTPD>
+	<Services t="o"	>
+		<X_TWSZ-COM_ALGAbility 	t="o">
+			<FTPEnabled	  t="b">1</FTPEnabled>
+			<TFTPEnabled   t="b">1</TFTPEnabled>
+			<L2TPEnabled   t="b">1</L2TPEnabled>
+			<PPTPEnabled   t="b">1</PPTPEnabled>
+			<RTSPEnabled   t="b">1</RTSPEnabled>
+			<SIPEnabled	  t="b">1</SIPEnabled>
+			<H323Enabled   t="b">1</H323Enabled>
+			<IPSECEnabled  	t="b">1</IPSECEnabled>
+		</X_TWSZ-COM_ALGAbility>
+	</Services>
+	<DeviceConfig t="o">
+		<PersistentData	t="s">	</PersistentData>
+		<ConfigFile	t="s">	</ConfigFile>
+	</DeviceConfig>
+	<ManagementServer t="o">
+		<X_TWSZ-COM_Tr069Enable	t="b" >1</X_TWSZ-COM_Tr069Enable>
+		<X_TWSZ-COM_Events t="o" ></X_TWSZ-COM_Events>
+		<X_TWSZ-COM_CAFile t="s"  ></X_TWSZ-COM_CAFile>
+		<X_TWSZ-COM_MaintainComplete t="b"	 ></X_TWSZ-COM_MaintainComplete>
+		<X_TWSZ-COM_CAFilePath t="s"  ></X_TWSZ-COM_CAFilePath>
+		<X_TWSZ-COM_CommandKey t="s" ></X_TWSZ-COM_CommandKey>
+		<X_TWSZ-COM_FaultStruct	t="s"  ></X_TWSZ-COM_FaultStruct>
+		<X_TWSZ-COM_DownloadStartTime t="s"	 >0000-00-00T00:00:00-00:00</X_TWSZ-COM_DownloadStartTime>
+		<X_TWSZ-COM_DownloadCompleteTime t="s" 	>0000-00-00T00:00:00-00:00</X_TWSZ-COM_DownloadCompleteTime>
+		<URL t="s">http://192.168.1.123:888/</URL>
+		<Username t="s">serial</Username>
+		<Password t="s">1234</Password>
+		<PeriodicInformEnable t="b">0</PeriodicInformEnable>
+		<PeriodicInformInterval	t="u">86400</PeriodicInformInterval>
+		<PeriodicInformTime	t="d">0000-00-00T00:00:00</PeriodicInformTime>
+		<ParameterKey t="s"	></ParameterKey>
+		<ConnectionRequestEnable t="b">1</ConnectionRequestEnable>
+		<ConnectionRequestURL t="s" ></ConnectionRequestURL>
+		<ConnectionRequestUsername t="s">admin</ConnectionRequestUsername>
+		<ConnectionRequestPassword t="s">5678</ConnectionRequestPassword>
+		<ManageableDeviceNumberOfEntries t="u"	>0</ManageableDeviceNumberOfEntries>
+		<ManageableDeviceNotificationLimit t="u"></ManageableDeviceNotificationLimit>
+		<X_TWSZ-COM_CheckInterval t="u"></X_TWSZ-COM_CheckInterval>
+		<X_TWSZ-COM_DefaultManageConnectionService t="s" ></X_TWSZ-COM_DefaultManageConnectionService>
+		<action	t="s" ></action>
+		<ManageableDevice t="o"	>
+		</ManageableDevice>
+	</ManagementServer>
+	<Time t="o">
+		<X_TWSZ-COM_Enable t="b" >1</X_TWSZ-COM_Enable>
+		<X_TWSZ-COM_Status t="s"  >Synchronizing</X_TWSZ-COM_Status>
+		<X_TWSZ-COM_UpdateInterval t="u" >24</X_TWSZ-COM_UpdateInterval>
+		<X_TWSZ-COM_RetryInterval t="u" >10</X_TWSZ-COM_RetryInterval>
+	    <X_TWSZ-COM_TimeZoneIdx	t="u" >26</X_TWSZ-COM_TimeZoneIdx>
+	    <X_TWSZ-COM_DaylightSavingOffset t="i"	>0</X_TWSZ-COM_DaylightSavingOffset>
+		<NTPServer1	t="s">time-a.netgear.com</NTPServer1>
+		<NTPServer2	t="s">time-b.netgear.com</NTPServer2>
+		<CurrentLocalTime t="d" >0001-01-01T00:00:00</CurrentLocalTime>
+		<LocalTimeZone t="s">-08:00</LocalTimeZone>
+		<LocalTimeZoneName t="s">PST</LocalTimeZoneName>
+		<DaylightSavingsUsed t="b">0</DaylightSavingsUsed>
+		<DaylightSavingsStart t="d">2000-04-01T02:00:00</DaylightSavingsStart>
+		<DaylightSavingsEnd	t="d">2000-09-01T02:00:00</DaylightSavingsEnd>
+	</Time>
+	<Layer3Forwarding t="o">
+		<DefaultConnectionService t="s"></DefaultConnectionService>
+		<X_TWSZ-COM_DefaultConnectionService t="s"></X_TWSZ-COM_DefaultConnectionService>
+		<ForwardNumberOfEntries	t="u" >0</ForwardNumberOfEntries>
+		<MAXForwardNumberOfEntries t="u" >32</MAXForwardNumberOfEntries>
+		<Forwarding	t="o" MaxIdx="0">
+		</Forwarding>
+	</Layer3Forwarding>
+	<X_TWSZ-COM_IPv6Layer3Forwarding t="o">
+		<DefaultConnectionService t="s"></DefaultConnectionService>
+		<MAXForwardNumberOfEntries t="u" >15</MAXForwardNumberOfEntries>
+		<ForwardNumberOfEntries t="u" >0</ForwardNumberOfEntries>
+		<IPv6Forwarding t="o" MaxIdx="0"></IPv6Forwarding>
+    </X_TWSZ-COM_IPv6Layer3Forwarding>
+	<Layer2Bridging	t="o">
+		<X_TWSZ-COM_STP	t="b" >0</X_TWSZ-COM_STP>
+		<MaxBridgeEntries t="u" >5</MaxBridgeEntries>
+		<MaxFilterEntries t="u" >16</MaxFilterEntries>
+		<MaxAvailableInterface t="u" >16</MaxAvailableInterface>
+		<MaxMarkingEntries t="u" >16</MaxMarkingEntries>
+		<BridgeNumberOfEntries t="u" >1</BridgeNumberOfEntries>
+		<FilterNumberOfEntries t="u" >2</FilterNumberOfEntries>
+		<MarkingNumberOfEntries	t="u" >1</MarkingNumberOfEntries>
+		<AvailableInterfaceNumberOfEntries t="u" >3</AvailableInterfaceNumberOfEntries>
+		<Bridge	t="o" MaxIdx="1">
+			<1 t="o">
+				<BridgeKey t="u" >1</BridgeKey>
+				<BridgeEnable t="b">1</BridgeEnable>
+				<BridgeStatus t="s"	></BridgeStatus>
+				<BridgeName	t="s">Lan1</BridgeName>
+				<VLANID	t="u">0</VLANID>
+				<X_TWSZ-COM_AssociatedLANDevice	t="s" >InternetGatewayDevice.LANDevice.1</X_TWSZ-COM_AssociatedLANDevice>
+			</1>
+		</Bridge>
+		<Filter	t="o" MaxIdx="2">
+			<1 t="o">
+				<FilterKey t="u" >1</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">1</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</1>
+			<2 t="o">
+				<FilterKey t="u" >2</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">2</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</2>
+			<3 t="o">
+				<FilterKey t="u" >3</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">4</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</3>
+			<4 t="o">
+				<FilterKey t="u" >4</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">5</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</4>
+			<5 t="o">
+				<FilterKey t="u" >5</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">6</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</5>
+			<6 t="o">
+				<FilterKey t="u" >6</FilterKey>
+				<FilterEnable t="b">1</FilterEnable>
+				<FilterStatus t="s"	> </FilterStatus>
+				<FilterBridgeReference t="i">1</FilterBridgeReference>
+				<ExclusivityOrder t="u"> </ExclusivityOrder>
+				<FilterInterface t="s">7</FilterInterface>
+				<VLANIDFilter t="i"> </VLANIDFilter>
+				<AdmitOnlyVLANTagged t="b">0</AdmitOnlyVLANTagged>
+				<EthertypeFilterList t="s"> </EthertypeFilterList>
+				<EthertypeFilterExclude	t="b">	</EthertypeFilterExclude>
+				<SourceMACAddressFilterList	t="s">	</SourceMACAddressFilterList>
+				<SourceMACAddressFilterExclude t="b"> </SourceMACAddressFilterExclude>
+				<DestMACAddressFilterList t="s"> </DestMACAddressFilterList>
+				<DestMACAddressFilterExclude t="b"> </DestMACAddressFilterExclude>
+				<SourceMACFromVendorClassIDFilter t="s"> </SourceMACFromVendorClassIDFilter>
+				<SourceMACFromVendorClassIDFilterExclude t="b"> </SourceMACFromVendorClassIDFilterExclude>
+				<DestMACFromVendorClassIDFilter	t="s">	</DestMACFromVendorClassIDFilter>
+				<DestMACFromVendorClassIDFilterExclude t="b"> </DestMACFromVendorClassIDFilterExclude>
+				<SourceMACFromClientIDFilter t="s"> </SourceMACFromClientIDFilter>
+				<SourceMACFromClientIDFilterExclude	t="b">	</SourceMACFromClientIDFilterExclude>
+				<DestMACFromClientIDFilter t="s"> </DestMACFromClientIDFilter>
+				<DestMACFromClientIDFilterExclude t="b"> </DestMACFromClientIDFilterExclude>
+				<SourceMACFromUserClassIDFilter	t="s">	</SourceMACFromUserClassIDFilter>
+				<SourceMACFromUserClassIDFilterExclude t="b"> </SourceMACFromUserClassIDFilterExclude>
+				<DestMACFromUserClassIDFilter t="s"> </DestMACFromUserClassIDFilter>
+				<DestMACFromUserClassIDFilterExclude t="b"> </DestMACFromUserClassIDFilterExclude>
+			</6>
+		</Filter>
+		<Marking t="o" MaxIdx="1">
+			<1 t="o">
+				<MarkingKey	t="u" > </MarkingKey>
+				<MarkingEnable t="b"> </MarkingEnable>
+				<MarkingStatus t="s" > </MarkingStatus>
+				<MarkingBridgeReference	t="i"> </MarkingBridgeReference>
+				<MarkingInterface t="s"> </MarkingInterface>
+				<VLANIDUntag t="b"> </VLANIDUntag>
+				<VLANIDMark	t="i"> </VLANIDMark>
+				<EthernetPriorityMark t="i">	</EthernetPriorityMark>
+				<EthernetPriorityOverride t="b"> </EthernetPriorityOverride>
+			</1>
+		</Marking>
+		<AvailableInterface	t="o" MaxIdx="3" >
+			<1 t="o">
+				<AvailableInterfaceKey t="u" >1</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</InterfaceReference>
+			</1>
+			<2 t="o">
+				<AvailableInterfaceKey t="u" >2</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.WLANConfiguration.1</InterfaceReference>
+			</2>
+			<3 t="o">
+				<AvailableInterfaceKey t="u" >3</AvailableInterfaceKey>
+				<InterfaceType t="s" >WANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1</InterfaceReference>
+			</3>
+			<4 t="o">
+				<AvailableInterfaceKey t="u" >4</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.WLANConfiguration.2</InterfaceReference>
+			</4>
+			<5 t="o">
+				<AvailableInterfaceKey t="u" >5</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.WLANConfiguration.3</InterfaceReference>
+			</5>
+			<6 t="o">
+				<AvailableInterfaceKey t="u" >6</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.WLANConfiguration.4</InterfaceReference>
+			</6>
+			<7 t="o">
+				<AvailableInterfaceKey t="u" >7</AvailableInterfaceKey>
+				<InterfaceType t="s" >LANInterface</InterfaceType>
+				<InterfaceReference	t="s" >InternetGatewayDevice.LANDevice.1.WLANConfiguration.5</InterfaceReference>
+			</7>
+		</AvailableInterface>
+	</Layer2Bridging>
+	<LANConfigSecurity t="o">
+		<ConfigPassword	t="s"> </ConfigPassword>
+	</LANConfigSecurity>
+	<IPPingDiagnostics t="o">
+		<DiagnosticsState t="s"> </DiagnosticsState>
+		<Interface t="s"> </Interface>
+		<Host t="s"> </Host>
+		<NumberOfRepetitions t="u"> </NumberOfRepetitions>
+		<Timeout t="u"> </Timeout>
+		<DataBlockSize t="u">	</DataBlockSize>
+		<DSCP t="u">	</DSCP>
+		<SuccessCount t="u" > </SuccessCount>
+		<FailureCount t="u" > </FailureCount>
+		<AverageResponseTime t="u"	> </AverageResponseTime>
+		<MinimumResponseTime t="u"	> </MinimumResponseTime>
+		<MaximumResponseTime t="u"	> </MaximumResponseTime>
+	</IPPingDiagnostics>
+	<LANDevice t="o" MaxIdx="1"	>
+		<1 t="o">
+			<LANEthernetInterfaceNumberOfEntries t="u"	>1</LANEthernetInterfaceNumberOfEntries>
+			<LANUSBInterfaceNumberOfEntries	t="u" >1</LANUSBInterfaceNumberOfEntries>
+			<LANWLANConfigurationNumberOfEntries t="u"	>1</LANWLANConfigurationNumberOfEntries>
+			<X_TWSZ-COM_LAN_DeviceName t="s" ></X_TWSZ-COM_LAN_DeviceName>
+			<X_TWSZ-COM_DeviceName t="s"  >br0</X_TWSZ-COM_DeviceName>
+			<X_TWSZ-COM_MacAddress t="s"  ></X_TWSZ-COM_MacAddress>
+			<X_TWSZ-COM_ReconfigFinishFlag t="b"  >1</X_TWSZ-COM_ReconfigFinishFlag>
+			<X_TWSZ-COM_IPv6LANHostConfigManagement t="o">
+				<IPv6InterfaceNumberOfEntries t="u">3</IPv6InterfaceNumberOfEntries>
+				<IPv6Interface t="o"  MaxIdx="3">
+					<1 t="o">
+							<IPv6InterfaceAddressScope t="s" >LinkLocal</IPv6InterfaceAddressScope>
+							<IPv6InterfaceAddress t="s">fe80::1</IPv6InterfaceAddress>
+							<IPv6InterfacePrefixLength t="u">64</IPv6InterfacePrefixLength>
+							<Status t="s">Valid</Status>
+					</1>
+					<2 t="o">
+							<IPv6InterfaceAddressScope t="s" >UniqueLocal</IPv6InterfaceAddressScope>
+							<IPv6InterfaceAddress t="s"></IPv6InterfaceAddress>
+							<IPv6InterfacePrefixLength t="u"></IPv6InterfacePrefixLength>
+							<Status t="s">Invalid</Status>
+					</2>
+					<3 t="o">
+							<IPv6InterfaceAddressScope t="s" >Global</IPv6InterfaceAddressScope>
+							<IPv6InterfaceAddress t="s"></IPv6InterfaceAddress>
+							<IPv6InterfacePrefixLength t="u"></IPv6InterfacePrefixLength>
+							<Status t="s">Invalid</Status>
+					</3>
+				</IPv6Interface>
+				<DHCPv6ServerConfig t="o">
+					<Enable t="b">1</Enable>
+					<AddressAssignmentEnabled t="b">1</AddressAssignmentEnabled>
+					<MinIPv6Address t="s"></MinIPv6Address>
+					<MaxIPv6Address t="s"></MaxIPv6Address>
+					<PreferredLifeTime t="s"></PreferredLifeTime>
+					<ValidLifeTime t="s"></ValidLifeTime>
+					<IPv6DomainName t="s"></IPv6DomainName>
+				</DHCPv6ServerConfig>
+				<RadvdConfig t="o">
+					<Enable t="b">1</Enable>
+					<RouterPreference t="s">medium</RouterPreference>
+					<RouterLifeTime t="u">60</RouterLifeTime>
+					<MaxRAInterval t="u">15</MaxRAInterval>
+					<MinRAInterval t="u">10</MinRAInterval>
+					<FlagConfType t="s">Auto</FlagConfType>
+					<ManagedFlag t="u"></ManagedFlag>
+					<OtherConfFlag t="u"></OtherConfFlag>
+					<IPv6SubnetID t="u">0</IPv6SubnetID>
+					<SLAACEnabled t="b">0</SLAACEnabled>
+					<IPv6SitePrefixConfigType t="s">Delegated</IPv6SitePrefixConfigType>
+					<StaticSitePrefixConfig t="o">
+							<IPv6SitePrefix t="s"></IPv6SitePrefix>
+							<IPv6SitePrefixLength t="u" >64</IPv6SitePrefixLength>
+							<PreferredLifeTime t="s">60</PreferredLifeTime>
+							<ValidLifeTime t="s">100</ValidLifeTime>
+					</StaticSitePrefixConfig>
+					<IPv6PrefixDelegationWANConnection t="s"></IPv6PrefixDelegationWANConnection>
+					<DelegatedSitePrefixConfig t="o">
+							<IPv6SitePrefix t="s" ></IPv6SitePrefix>
+							<IPv6SitePrefixLength t="u" >64</IPv6SitePrefixLength>
+							<PreferredLifeTime t="s" >infinity</PreferredLifeTime>
+							<ValidLifeTime t="s" >infinity</ValidLifeTime>
+					</DelegatedSitePrefixConfig>
+					<UniqueLocalPrefixConfig t="o">
+							<Enable t="b">0</Enable>
+							<GlobalID t="s">11:22:33:44:55</GlobalID>
+					</UniqueLocalPrefixConfig>
+				</RadvdConfig>
+				<IPv6DNSRelayEnable t="b">1</IPv6DNSRelayEnable>
+				<IPv6DNSServers t="s"></IPv6DNSServers>
+			</X_TWSZ-COM_IPv6LANHostConfigManagement>
+			<LANHostConfigManagement t="o">
+				<MACAddress t="s" ></MACAddress>
+				<DHCPServerEnable t="b">1</DHCPServerEnable>
+				<DHCPRelay t="b" >0</DHCPRelay>
+				<X_TWSZ-COM_DHCPRelayAddress t="s">192.168.1.200</X_TWSZ-COM_DHCPRelayAddress>
+				<MinAddress	t="s">192.168.1.2</MinAddress>
+				<MaxAddress	t="s">192.168.1.254</MaxAddress>
+				<X_TWSZ-COM_ClientClassNumberofEntries t="u"  >3</X_TWSZ-COM_ClientClassNumberofEntries>
+				<X_TWSZ-COM_ClientClassesMaxEntries	t="u" 	>16</X_TWSZ-COM_ClientClassesMaxEntries>
+				<X_TWSZ-COM_ClientClasses t="o"	MaxIdx="0" >
+				</X_TWSZ-COM_ClientClasses>
+				<DHCPStaticAddressNumberOfEntries t="u" >0</DHCPStaticAddressNumberOfEntries>
+				<X_TWSZ-COM_StaticLeaseMaxEntries t="u"  >10</X_TWSZ-COM_StaticLeaseMaxEntries>
+				<DHCPStaticAddress t="o" MaxIdx="0"	MaxNode="X_TWSZ-COM_StaticLeaseMaxEntries" CurNode="DHCPStaticAddressNumberOfEntries">
+				</DHCPStaticAddress>
+				<DNSServers	t="s"></DNSServers>
+				<X_TWSZ-COM_DNSRelayEnable t="b"  >1</X_TWSZ-COM_DNSRelayEnable>
+				<DomainName	t="s"></DomainName>
+				<IPRouters t="s">192.168.1.1</IPRouters>
+				<SubnetMask	t="s">255.255.255.0</SubnetMask>
+				<X_TWSZ-COM_AllowOtherGateway t="b" >0</X_TWSZ-COM_AllowOtherGateway>
+				<X_TWSZ-COM_BakupIP t="s">192.168.1.1</X_TWSZ-COM_BakupIP>
+				<DHCPLeaseTime t="i">86400</DHCPLeaseTime>
+				<AllowedMACAddresses t="s"> </AllowedMACAddresses>
+				<DHCPServerConfigurable	t="b">0</DHCPServerConfigurable>
+				<ReservedAddresses t="s"></ReservedAddresses>
+				<UseAllocatedWAN t="s"></UseAllocatedWAN>
+				<AssociatedConnection t="s"></AssociatedConnection>
+				<PassthroughLease t="u"></PassthroughLease>
+				<PassthroughMACAddress t="s"></PassthroughMACAddress>
+				<IPInterfaceNumberOfEntries	t="u" >2</IPInterfaceNumberOfEntries>
+				<IPInterface t="o" MaxIdx="1">
+					<1 t="o">
+						<Enable	t="b">1</Enable>
+						<IPInterfaceIPAddress t="s">192.168.1.1</IPInterfaceIPAddress>
+						<IPInterfaceSubnetMask t="s">255.255.255.0</IPInterfaceSubnetMask>
+					</1>
+				</IPInterface>
+				<X_TWSZ-COM_DHCPFilter t="o" >
+					<Enabled t="b">1</Enabled>
+					<X_TWSZ-COM_WhiteListMaxEntries	t="u" 	>64</X_TWSZ-COM_WhiteListMaxEntries>
+					<X_TWSZ-COM_WhiteListCurEntries	t="u" >0</X_TWSZ-COM_WhiteListCurEntries>
+					<WhiteList t="o" MaxNode="X_TWSZ-COM_WhiteListMaxEntries" CurNode="X_TWSZ-COM_WhiteListCurEntries" ></WhiteList>
+					<X_TWSZ-COM_BlackListMaxEntries	t="u" 	>64</X_TWSZ-COM_BlackListMaxEntries>
+					<X_TWSZ-COM_BlackListCurEntries	t="u" >0</X_TWSZ-COM_BlackListCurEntries>
+					<BlackList t="o" MaxNode="X_TWSZ-COM_BlackListMaxEntries" CurNode="X_TWSZ-COM_BlackListCurEntries" ></BlackList>
+				</X_TWSZ-COM_DHCPFilter>
+			</LANHostConfigManagement>
+			<LANEthernetInterfaceConfig	t="o" MaxIdx="1" >
+				<1 t="o">
+					<X_TWSZ-COM_DeviceName t="s" >eth0</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_Description t="s"  >LAN1</X_TWSZ-COM_Description>
+					<Enable t="b">1</Enable>
+					<Status t="s" ></Status>
+					<MACAddress t="s" ></MACAddress>
+					<MACAddressControlEnabled t="b"> </MACAddressControlEnabled>
+					<X_TWSZ-COM_MACAddressControlAction t="s"  >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<MaxBitRate t="s">Auto</MaxBitRate>
+					<DuplexMode t="s">Auto</DuplexMode>
+					<Stats t="o">
+						<BytesSent t="u" ></BytesSent>
+						<BytesReceived t="u" ></BytesReceived>
+						<PacketsSent t="u"	></PacketsSent>
+						<PacketsReceived t="u"	></PacketsReceived>
+						<RxError t="u"	></RxError>
+						<TxError t="u"	></TxError>
+						<RxDrop	t="u" ></RxDrop>
+						<TxDrop	t="u" ></TxDrop>
+					</Stats>
+					<X_TWSZ-COM_LinkStats t="o" >
+						<1 t="o">
+							<Status t="s"  Stat="1"></Status>
+							<UpTime t="u"  Stat="1"></UpTime>
+						</1>
+						<2 t="o">
+							<Status t="s"  Stat="1"></Status>
+							<UpTime t="u"  Stat="1"></UpTime>
+						</2>
+						<3 t="o">
+							<Status t="s"  Stat="1"></Status>
+							<UpTime t="u"  Stat="1"></UpTime>
+						</3>
+						<4 t="o">
+							<Status t="s"  Stat="1"></Status>
+							<UpTime t="u"  Stat="1"></UpTime>
+						</4>
+					</X_TWSZ-COM_LinkStats>
+				</1>
+			</LANEthernetInterfaceConfig>
+			<LANUSBInterfaceConfig t="o" MaxIdx="1"	>
+				<1 t="o">
+					<Enable	t="b">	</Enable>
+					<Status	t="s" >	</Status>
+					<MACAddress	t="s" >	</MACAddress>
+					<MACAddressControlEnabled t="b"> </MACAddressControlEnabled>
+					<Standard t="s" > </Standard>
+					<Type t="s"	> </Type>
+					<Rate t="s"	> </Rate>
+					<Power t="s" > </Power>
+					<Stats t="o">
+						<BytesSent t="u" >	</BytesSent>
+						<BytesReceived t="u" >	</BytesReceived>
+						<CellsSent t="u" >	</CellsSent>
+						<CellsReceived t="u" >	</CellsReceived>
+					</Stats>
+				</1>
+			</LANUSBInterfaceConfig>
+			<WLANConfiguration t="o" MaxIdx="1"	>
+				<1 t="o">
+					<Enable t="b">1</Enable>
+					<MaxBitRate	t="s" Stat="1">Auto</MaxBitRate>
+					<Channel t="u" Stat="1">0</Channel>
+					<AutoChannelEnable t="b" Stat="1">1</AutoChannelEnable>
+					<Standard t="s"	 Stat="1">bgn</Standard>
+					<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+					<BasicDataTransmitRates	t="s" Stat="1"></BasicDataTransmitRates>
+					<OperationalDataTransmitRates t="s" Stat="1"></OperationalDataTransmitRates>
+					<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+					<InsecureOOBAccessEnabled t="b" Stat="1">1</InsecureOOBAccessEnabled>
+					<BeaconAdvertisementEnabled	t="b" Stat="1">1</BeaconAdvertisementEnabled>
+					<RadioEnabled t="b" Stat="1">1</RadioEnabled>
+					<TransmitPowerSupported	t="s"  Stat="1"></TransmitPowerSupported>
+					<TransmitPower t="u" Stat="1">100</TransmitPower>
+					<AutoRateFallBackEnabled t="b" Stat="1">1</AutoRateFallBackEnabled>
+					<LocationDescription t="s" Stat="1"></LocationDescription>
+					<RegulatoryDomain t="s" Stat="1">CN</RegulatoryDomain>
+					<ChannelsInUse t="s" 	Stat="1"></ChannelsInUse>
+					<DeviceOperationMode t="s" Stat="1">InfrastructureAccessPoint</DeviceOperationMode>
+					<DistanceFromRoot t="u" Stat="1">0</DistanceFromRoot>
+					<WMMSupported t="b" Stat="1">1</WMMSupported>
+					<UAPSDSupported	t="b" Stat="1">1</UAPSDSupported>
+					<PreambleType t="b" Stat="1">0</PreambleType>
+					<BeaconInterval	t="u" Stat="1">200</BeaconInterval>
+					<RCSCTSThreshlod t="u" Stat="1">2346</RCSCTSThreshlod>
+					<PowerSave t="b"  Stat="1">0</PowerSave>
+					<DTIM t="u"  Stat="1">1</DTIM>
+					<OperatingChannelBandwidth t="s"  Stat="1">40</OperatingChannelBandwidth>
+					<BSSRelay t="b"  Stat="1">0</BSSRelay>
+					<FRAGLEN t="u"  Stat="1">2346</FRAGLEN>
+					<XR	t="b"  Stat="1">0</XR>
+					<GuardInterval t="b" Stat="1">1</GuardInterval>
+					<Status t="s"  Stat="1"></Status>
+					<Name t="s" >wlan0</Name>
+					<BSSID t="s"  Stat="1"> </BSSID>
+					<SSID t="s">NETGEAR</SSID>
+					<BeaconType	t="s">None</BeaconType>
+					<MACAddressControlEnabled t="b"  Cache="1">0</MACAddressControlEnabled>
+					<WEPKeyIndex t="u">1</WEPKeyIndex>
+					<KeyPassphrase t="s" Stat="1"> </KeyPassphrase>
+					<WEPEncryptionLevel	t="s"  Stat="1">40-bit,104-bit</WEPEncryptionLevel>
+					<BasicEncryptionModes t="s">WEPEncryption</BasicEncryptionModes>
+					<BasicAuthenticationMode t="s">None</BasicAuthenticationMode>
+					<WPAEncryptionModes	t="s">AESEncryption</WPAEncryptionModes>
+					<WPAAuthenticationMode t="s">PSKAuthentication</WPAAuthenticationMode>
+					<IEEE11iEncryptionModes	t="s">TKIPandAESEncryption</IEEE11iEncryptionModes>
+					<IEEE11iAuthenticationMode t="s">PSKAuthentication</IEEE11iAuthenticationMode>
+					<SSIDAdvertisementEnabled t="b">1</SSIDAdvertisementEnabled>
+					<TotalPSKFailures t="u"  Stat="1">	</TotalPSKFailures>
+					<TotalIntegrityFailures	t="u" 	Stat="1"> </TotalIntegrityFailures>
+					<PeerBSSID t="s" Stat="1"> </PeerBSSID>
+					<AuthenticationServiceMode t="s"> </AuthenticationServiceMode>
+					<WMMEnable t="b">1</WMMEnable>
+					<UAPSDEnable t="b">0</UAPSDEnable>
+					<TotalBytesSent	t="u" 	Stat="1"> </TotalBytesSent>
+					<TotalBytesReceived	t="u" 	Stat="1"> </TotalBytesReceived>
+					<TotalPacketsSent t="u"  Stat="1">	</TotalPacketsSent>
+					<TotalPacketsReceived t="u"  Stat="1">	</TotalPacketsReceived>
+					<TotalAssociations t="u"  Stat="1">0</TotalAssociations>
+					<X_TWSZ-COM_UpTime t="u"  Stat="1"></X_TWSZ-COM_UpTime>
+					<Stats t="o">
+						<ErrorsSent t="u"  Stat="1"></ErrorsSent>
+						<ErrorsReceived t="u"  Stat="1"></ErrorsReceived>
+						<UnicastPacketsSent t="u"  Stat="1"></UnicastPacketsSent>
+						<UnicastPacketsReceived t="u"  Stat="1"></UnicastPacketsReceived>
+						<DiscardPacketsSent t="u"  Stat="1"></DiscardPacketsSent>
+						<DiscardPacketsReceived t="u"  Stat="1"></DiscardPacketsReceived>
+						<MulticastPacketsSent t="u"  Stat="1"></MulticastPacketsSent>
+						<MulticastPacketsReceived t="u"  Stat="1"></MulticastPacketsReceived>
+						<BroadcastPacketsSent t="u"  Stat="1"></BroadcastPacketsSent>
+						<BroadcastPacketsReceived t="u"  Stat="1"></BroadcastPacketsReceived>
+						<UnknownProtoRacketsReceived t="u"	 Stat="1"></UnknownProtoRacketsReceived>
+					</Stats>
+					<WPS t="o" >
+						<Enable t="b">1</Enable>
+						<DeviceName t="s" >wlan0</DeviceName>
+						<DevicePassword t="s">51937751</DevicePassword>
+						<UUID t="s" >6304125310192006122800000000004C</UUID>
+						<Version t="u"  Stat="1"></Version>
+						<ConfigMethodsSupported t="s"  Stat="1"></ConfigMethodsSupported>
+						<ConfigMethodsEnabled t="s"></ConfigMethodsEnabled>
+						<SetupLockedState t="s" ></SetupLockedState>
+						<SetupLock t="b">0</SetupLock>
+						<ConfigurationState t="s" >Configured</ConfigurationState>
+						<LastConfigurationError t="s" ></LastConfigurationError>
+						<RegistrarNumberOfEntries t="u" ></RegistrarNumberOfEntries>
+						<RegistrarEstablished  t="b" ></RegistrarEstablished>
+						<X_TWSZ-COM_PeerPassword t="s"  Stat="1"></X_TWSZ-COM_PeerPassword>
+						<X_TWSZ-COM_StartWpsSession t="s"  Stat="1">0</X_TWSZ-COM_StartWpsSession>
+						<X_TWSZ-COM_GeneratePinEnable t="b"  >1</X_TWSZ-COM_GeneratePinEnable>
+						<X_TWSZ-COM_GeneratePin t="s"  Cache="1" Stat="1">0</X_TWSZ-COM_GeneratePin>
+						<X_TWSZ-COM_WpsSessionStatus t="s"   Stat="1"></X_TWSZ-COM_WpsSessionStatus>
+						<X_TWSZ-COM_GeneratePinStatus t="s"   Stat="1"></X_TWSZ-COM_GeneratePinStatus>
+						<X_TWSZ-COM_SetupMethod t="s"  Cache="1">None</X_TWSZ-COM_SetupMethod>
+						<X_TWSZ-COM_OriginalSSID t="s"   Stat="1">NETGEAR</X_TWSZ-COM_OriginalSSID>
+						<X_TWSZ-COM_OriginalAuth t="s"   Stat="1">None</X_TWSZ-COM_OriginalAuth>
+						<X_TWSZ-COM_OriginalEnc t="s"   Stat="1">None</X_TWSZ-COM_OriginalEnc>
+						<X_TWSZ-COM_PeerMac t="s"   Stat="1"></X_TWSZ-COM_PeerMac>
+						<X_TWSZ-COM_PeerName t="s"   Stat="1"></X_TWSZ-COM_PeerName>
+						<Registrar t="o" MaxIdx="0"	>
+						</Registrar>
+					</WPS>
+					<AssociatedDevice t="o"	MaxIdx="0" 	Stat="1">
+					</AssociatedDevice>
+					<WEPKey	t="o" MaxIdx="4" >
+						<1 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</1>
+						<2 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</2>
+						<3 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</3>
+						<4 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</4>
+					</WEPKey>
+					<PreSharedKey t="o"	MaxIdx="1" >
+						<1 t="o">
+							<PreSharedKey t="s"	Password="2"></PreSharedKey>
+							<KeyPassphrase t="s" Password="2"></KeyPassphrase>
+							<AssociatedDeviceMACAddress	t="s"> </AssociatedDeviceMACAddress>
+						</1>
+					</PreSharedKey>
+					<APWMMParameter	t="o" MaxIdx="0" >
+					</APWMMParameter>
+					<STAWMMParameter t="o" MaxIdx="0" >
+					</STAWMMParameter>
+					<X_TWSZ-COM_RadiusServer t="o" MaxIdx="2"  >
+						<1 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</1>
+						<2 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</2>
+					</X_TWSZ-COM_RadiusServer>
+					<X_TWSZ-COM_DeviceName t="s"  Stat="1">wlan0</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_IsMatchCondition t="s" 	 Stat="1">0</X_TWSZ-COM_IsMatchCondition>
+					<X_TWSZ-COM_VapIndex t="u"	  Stat="1">0</X_TWSZ-COM_VapIndex>
+					<X_TWSZ-COM_MulticastRate t="s">0</X_TWSZ-COM_MulticastRate>
+					<X_TWSZ-COM_MAXSTATION t="u"	 Stat="1">16</X_TWSZ-COM_MAXSTATION>
+					<X_TWSZ-COM_APIsolate t="b" >0</X_TWSZ-COM_APIsolate>
+					<X_TWSZ-COM_AccountEnable t="b"  Stat="1">0</X_TWSZ-COM_AccountEnable>
+					<X_TWSZ-COM_AccountInterval	t="u" >100</X_TWSZ-COM_AccountInterval>
+					<X_TWSZ-COM_BakRadiusEnable	t="b" >0</X_TWSZ-COM_BakRadiusEnable>
+					<X_TWSZ-COM_WPAStrictRekey t="b" >0</X_TWSZ-COM_WPAStrictRekey>
+					<X_TWSZ-COM_WPAGroupRekey t="u" >86400</X_TWSZ-COM_WPAGroupRekey>
+					<X_TWSZ-COM_MACAddressControlAction	t="s" >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<X_TWSZ-COM_MaxMACListNumberOfEntries t="u"  Stat="1">64</X_TWSZ-COM_MaxMACListNumberOfEntries>
+					<X_TWSZ-COM_MACListNumberOfEntries t="u" >0</X_TWSZ-COM_MACListNumberOfEntries>
+					<X_TWSZ-COM_RadioInterface t="u"   Stat="1">1</X_TWSZ-COM_RadioInterface>
+					<X_TWSZ-COM_MACListEnable t="b" >0</X_TWSZ-COM_MACListEnable>
+					<X_TWSZ-COM_GuestAccess t="b" >1</X_TWSZ-COM_GuestAccess>
+					<X_TWSZ-COM_WEPEncStrength	t="s"  >40-bit</X_TWSZ-COM_WEPEncStrength>
+					<X_TWSZ-COM_MACList t="o" MaxNode="X_TWSZ-COM_MaxMACListNumberOfEntries" CurNode="X_TWSZ-COM_MACListNumberOfEntries">
+					</X_TWSZ-COM_MACList>
+					<X_TWSZ-COM_ScheduleListEnable t="b">0</X_TWSZ-COM_ScheduleListEnable>
+					<X_TWSZ-COM_MaxScheduleListNumberOfEntries t="u"  Stat="1">21</X_TWSZ-COM_MaxScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleListNumberOfEntries t="u" >0</X_TWSZ-COM_ScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleList t="o" MaxNode="X_TWSZ-COM_MaxScheduleListNumberOfEntries" CurNode="X_TWSZ-COM_ScheduleListNumberOfEntries">
+					</X_TWSZ-COM_ScheduleList>
+				</1>
+				<2 t="o">
+					<Enable t="b">0</Enable>
+					<MaxBitRate	t="s" Stat="1">Auto</MaxBitRate>
+					<Channel t="u" Stat="1">0</Channel>
+					<AutoChannelEnable t="b" Stat="1">1</AutoChannelEnable>
+					<Standard t="s"	 Stat="1">bgn</Standard>
+					<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+					<BasicDataTransmitRates	t="s" Stat="1"></BasicDataTransmitRates>
+					<OperationalDataTransmitRates t="s" Stat="1"></OperationalDataTransmitRates>
+					<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+					<InsecureOOBAccessEnabled t="b" Stat="1">1</InsecureOOBAccessEnabled>
+					<BeaconAdvertisementEnabled	t="b" Stat="1">1</BeaconAdvertisementEnabled>
+					<RadioEnabled t="b" Stat="1">1</RadioEnabled>
+					<TransmitPowerSupported	t="s"  Stat="1"></TransmitPowerSupported>
+					<TransmitPower t="u" Stat="1">100</TransmitPower>
+					<AutoRateFallBackEnabled t="b" Stat="1">1</AutoRateFallBackEnabled>
+					<LocationDescription t="s" Stat="1"></LocationDescription>
+					<RegulatoryDomain t="s" Stat="1">CN</RegulatoryDomain>
+					<ChannelsInUse t="s" 	Stat="1"></ChannelsInUse>
+					<DeviceOperationMode t="s" Stat="1">InfrastructureAccessPoint</DeviceOperationMode>
+					<DistanceFromRoot t="u" Stat="1">0</DistanceFromRoot>
+					<WMMSupported t="b" Stat="1">1</WMMSupported>
+					<UAPSDSupported	t="b" Stat="1">1</UAPSDSupported>
+					<PreambleType t="b" Stat="1">0</PreambleType>
+					<BeaconInterval	t="u" Stat="1">200</BeaconInterval>
+					<RCSCTSThreshlod t="u" Stat="1">2346</RCSCTSThreshlod>
+					<PowerSave t="b"  Stat="1">0</PowerSave>
+					<DTIM t="u"  Stat="1">1</DTIM>
+					<OperatingChannelBandwidth t="s"  Stat="1">40</OperatingChannelBandwidth>
+					<BSSRelay t="b"  Stat="1">0</BSSRelay>
+					<FRAGLEN t="u"  Stat="1">2346</FRAGLEN>
+					<XR	t="b"  Stat="1">0</XR>
+					<GuardInterval t="b" Stat="1">1</GuardInterval>
+					<Status t="s"  Stat="1"></Status>
+					<Name t="s" >wlan0-va0</Name>
+					<BSSID t="s"  Stat="1"> </BSSID>
+					<SSID t="s">NETGEAR-Guest</SSID>
+					<BeaconType	t="s">None</BeaconType>
+					<MACAddressControlEnabled t="b"  Cache="1">0</MACAddressControlEnabled>
+					<WEPKeyIndex t="u">1</WEPKeyIndex>
+					<KeyPassphrase t="s" Stat="1"> </KeyPassphrase>
+					<WEPEncryptionLevel	t="s"  Stat="1">40-bit,104-bit</WEPEncryptionLevel>
+					<BasicEncryptionModes t="s"> </BasicEncryptionModes>
+					<BasicAuthenticationMode t="s">None</BasicAuthenticationMode>
+					<WPAEncryptionModes	t="s"> </WPAEncryptionModes>
+					<WPAAuthenticationMode t="s">PSKAuthentication</WPAAuthenticationMode>
+					<IEEE11iEncryptionModes	t="s"> </IEEE11iEncryptionModes>
+					<IEEE11iAuthenticationMode t="s">PSKAuthentication</IEEE11iAuthenticationMode>
+					<SSIDAdvertisementEnabled t="b">1</SSIDAdvertisementEnabled>
+					<TotalPSKFailures t="u"  Stat="1">	</TotalPSKFailures>
+					<TotalIntegrityFailures	t="u" 	Stat="1"> </TotalIntegrityFailures>
+					<PeerBSSID t="s" Stat="1"> </PeerBSSID>
+					<AuthenticationServiceMode t="s"> </AuthenticationServiceMode>
+					<WMMEnable t="b">1</WMMEnable>
+					<UAPSDEnable t="b">0</UAPSDEnable>
+					<TotalBytesSent	t="u" 	Stat="1"> </TotalBytesSent>
+					<TotalBytesReceived	t="u" 	Stat="1"> </TotalBytesReceived>
+					<TotalPacketsSent t="u"  Stat="1">	</TotalPacketsSent>
+					<TotalPacketsReceived t="u"  Stat="1">	</TotalPacketsReceived>
+					<TotalAssociations t="u"  Stat="1">0</TotalAssociations>
+					<X_TWSZ-COM_UpTime t="u"  Stat="1"></X_TWSZ-COM_UpTime>
+					<Stats t="o">
+						<ErrorsSent t="u"  Stat="1"></ErrorsSent>
+						<ErrorsReceived t="u"  Stat="1"></ErrorsReceived>
+						<UnicastPacketsSent t="u"  Stat="1"></UnicastPacketsSent>
+						<UnicastPacketsReceived t="u"  Stat="1"></UnicastPacketsReceived>
+						<DiscardPacketsSent t="u"  Stat="1"></DiscardPacketsSent>
+						<DiscardPacketsReceived t="u"  Stat="1"></DiscardPacketsReceived>
+						<MulticastPacketsSent t="u"  Stat="1"></MulticastPacketsSent>
+						<MulticastPacketsReceived t="u"  Stat="1"></MulticastPacketsReceived>
+						<BroadcastPacketsSent t="u"  Stat="1"></BroadcastPacketsSent>
+						<BroadcastPacketsReceived t="u"  Stat="1"></BroadcastPacketsReceived>
+						<UnknownProtoRacketsReceived t="u"	 Stat="1"></UnknownProtoRacketsReceived>
+					</Stats>
+					<WPS t="o" >
+						<Enable t="b" Stat="1">0</Enable>
+						<DeviceName t="s" >wlan0-va0</DeviceName>
+						<DevicePassword t="s">12345670</DevicePassword>
+						<UUID t="s"  Stat="1">63041253101920061228000000000000</UUID>
+						<Version t="u"  Stat="1"></Version>
+						<ConfigMethodsSupported t="s"  Stat="1"></ConfigMethodsSupported>
+						<ConfigMethodsEnabled t="s"></ConfigMethodsEnabled>
+						<SetupLockedState t="s" ></SetupLockedState>
+						<SetupLock t="b">0</SetupLock>
+						<ConfigurationState t="s" >Configured</ConfigurationState>
+						<LastConfigurationError t="s" ></LastConfigurationError>
+						<RegistrarNumberOfEntries t="u" ></RegistrarNumberOfEntries>
+						<RegistrarEstablished  t="b" ></RegistrarEstablished>
+						<X_TWSZ-COM_PeerPassword t="s"  Stat="1"></X_TWSZ-COM_PeerPassword>
+						<X_TWSZ-COM_StartWpsSession t="s"  Stat="1">0</X_TWSZ-COM_StartWpsSession>
+						<X_TWSZ-COM_GeneratePinEnable t="b"   Stat="1">0</X_TWSZ-COM_GeneratePinEnable>
+						<X_TWSZ-COM_GeneratePin t="s"  Cache="1" Stat="1">0</X_TWSZ-COM_GeneratePin>
+						<X_TWSZ-COM_WpsSessionStatus t="s"   Stat="1"></X_TWSZ-COM_WpsSessionStatus>
+						<X_TWSZ-COM_GeneratePinStatus t="s"   Stat="1"></X_TWSZ-COM_GeneratePinStatus>
+						<X_TWSZ-COM_SetupMethod t="s"  Cache="1" Stat="1">None</X_TWSZ-COM_SetupMethod>
+						<X_TWSZ-COM_OriginalSSID t="s"   Stat="1">NetGear-002</X_TWSZ-COM_OriginalSSID>
+						<X_TWSZ-COM_OriginalAuth t="s"   Stat="1">None</X_TWSZ-COM_OriginalAuth>
+						<X_TWSZ-COM_OriginalEnc t="s"   Stat="1">None</X_TWSZ-COM_OriginalEnc>
+						<Registrar t="o" MaxIdx="0"	>
+						<X_TWSZ-COM_PeerMac t="s"   Stat="1"></X_TWSZ-COM_PeerMac>
+						<X_TWSZ-COM_PeerName t="s"   Stat="1"></X_TWSZ-COM_PeerName>
+						</Registrar>
+					</WPS>
+					<AssociatedDevice t="o"	MaxIdx="0" 	Stat="1">
+					</AssociatedDevice>
+					<WEPKey	t="o" MaxIdx="4" >
+						<1 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</1>
+						<2 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</2>
+						<3 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</3>
+						<4 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</4>
+					</WEPKey>
+					<PreSharedKey t="o"	MaxIdx="1" >
+						<1 t="o">
+							<PreSharedKey t="s"	Password="2"> </PreSharedKey>
+							<KeyPassphrase t="s" Password="2"></KeyPassphrase>
+							<AssociatedDeviceMACAddress	t="s"> </AssociatedDeviceMACAddress>
+						</1>
+					</PreSharedKey>
+					<APWMMParameter	t="o" MaxIdx="0" >
+					</APWMMParameter>
+					<STAWMMParameter t="o" MaxIdx="0" >
+					</STAWMMParameter>
+					<X_TWSZ-COM_RadiusServer t="o" MaxIdx="2"  >
+						<1 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</1>
+						<2 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</2>
+					</X_TWSZ-COM_RadiusServer>					
+					<X_TWSZ-COM_DeviceName t="s"  Stat="1">wlan0-va0</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_IsMatchCondition t="s" 	 Stat="1">0</X_TWSZ-COM_IsMatchCondition>
+					<X_TWSZ-COM_VapIndex t="u"	  Stat="1">0</X_TWSZ-COM_VapIndex>
+					<X_TWSZ-COM_MulticastRate t="s">0</X_TWSZ-COM_MulticastRate>
+					<X_TWSZ-COM_MAXSTATION t="u"	 Stat="1">16</X_TWSZ-COM_MAXSTATION>
+					<X_TWSZ-COM_APIsolate t="b" >0</X_TWSZ-COM_APIsolate>
+					<X_TWSZ-COM_AccountEnable t="b"  Stat="1">0</X_TWSZ-COM_AccountEnable>
+					<X_TWSZ-COM_AccountInterval	t="u" >100</X_TWSZ-COM_AccountInterval>
+					<X_TWSZ-COM_BakRadiusEnable	t="b" >0</X_TWSZ-COM_BakRadiusEnable>
+					<X_TWSZ-COM_WPAStrictRekey t="b" >0</X_TWSZ-COM_WPAStrictRekey>
+					<X_TWSZ-COM_WPAGroupRekey t="u" >86400</X_TWSZ-COM_WPAGroupRekey>
+					<X_TWSZ-COM_MACAddressControlAction	t="s" >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<X_TWSZ-COM_MaxMACListNumberOfEntries t="u"  Stat="1">64</X_TWSZ-COM_MaxMACListNumberOfEntries>
+					<X_TWSZ-COM_MACListNumberOfEntries t="u" >0</X_TWSZ-COM_MACListNumberOfEntries>
+					<X_TWSZ-COM_RadioInterface t="u"   Stat="1">1</X_TWSZ-COM_RadioInterface>
+					<X_TWSZ-COM_MACListEnable t="b" >0</X_TWSZ-COM_MACListEnable>
+					<X_TWSZ-COM_GuestAccess t="b" >0</X_TWSZ-COM_GuestAccess>
+					<X_TWSZ-COM_WEPEncStrength	t="s"  >40-bit</X_TWSZ-COM_WEPEncStrength>
+					<X_TWSZ-COM_MACList t="o" MaxNode="X_TWSZ-COM_MaxMACListNumberOfEntries" CurNode="X_TWSZ-COM_MACListNumberOfEntries">
+					</X_TWSZ-COM_MACList>
+					<X_TWSZ-COM_ScheduleListEnable t="b">0</X_TWSZ-COM_ScheduleListEnable>
+					<X_TWSZ-COM_MaxScheduleListNumberOfEntries t="u"  Stat="1">16</X_TWSZ-COM_MaxScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleListNumberOfEntries t="u" >0</X_TWSZ-COM_ScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleList t="o" MaxNode="X_TWSZ-COM_MaxScheduleListNumberOfEntries" CurNode="X_TWSZ-COM_ScheduleListNumberOfEntries">
+					</X_TWSZ-COM_ScheduleList>
+				</2>
+				<3 t="o">
+					<Enable t="b">0</Enable>
+					<MaxBitRate	t="s" Stat="1">Auto</MaxBitRate>
+					<Channel t="u" Stat="1">0</Channel>
+					<AutoChannelEnable t="b" Stat="1">Auto</AutoChannelEnable>
+					<Standard t="s"	 Stat="1">bgn</Standard>
+					<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+					<BasicDataTransmitRates	t="s" Stat="1"></BasicDataTransmitRates>
+					<OperationalDataTransmitRates t="s" Stat="1"></OperationalDataTransmitRates>
+					<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+					<InsecureOOBAccessEnabled t="b" Stat="1">1</InsecureOOBAccessEnabled>
+					<BeaconAdvertisementEnabled	t="b" Stat="1">1</BeaconAdvertisementEnabled>
+					<RadioEnabled t="b" Stat="1">1</RadioEnabled>
+					<TransmitPowerSupported	t="s"  Stat="1"></TransmitPowerSupported>
+					<TransmitPower t="u" Stat="1">100</TransmitPower>
+					<AutoRateFallBackEnabled t="b" Stat="1">1</AutoRateFallBackEnabled>
+					<LocationDescription t="s" Stat="1"></LocationDescription>
+					<RegulatoryDomain t="s" Stat="1">CN</RegulatoryDomain>
+					<ChannelsInUse t="s" 	Stat="1"></ChannelsInUse>
+					<DeviceOperationMode t="s" Stat="1">InfrastructureAccessPoint</DeviceOperationMode>
+					<DistanceFromRoot t="u" Stat="1">0</DistanceFromRoot>
+					<WMMSupported t="b" Stat="1">1</WMMSupported>
+					<UAPSDSupported	t="b" Stat="1">1</UAPSDSupported>
+					<PreambleType t="b" Stat="1">0</PreambleType>
+					<BeaconInterval	t="u" Stat="1">200</BeaconInterval>
+					<RCSCTSThreshlod t="u" Stat="1">2346</RCSCTSThreshlod>
+					<PowerSave t="b"  Stat="1">0</PowerSave>
+					<DTIM t="u"  Stat="1">1</DTIM>
+					<OperatingChannelBandwidth t="s"  Stat="1">40</OperatingChannelBandwidth>
+					<BSSRelay t="b"  Stat="1">0</BSSRelay>
+					<FRAGLEN t="u"  Stat="1">2346</FRAGLEN>
+					<XR	t="b"  Stat="1">0</XR>
+					<GuardInterval t="b" Stat="1">1</GuardInterval>
+					<Status t="s"  Stat="1"></Status>
+					<Name t="s" >wlan0-va1</Name>
+					<BSSID t="s"  Stat="1"> </BSSID>
+					<SSID t="s">NetGear-003</SSID>
+					<BeaconType	t="s">None</BeaconType>
+					<MACAddressControlEnabled t="b"  Cache="1">0</MACAddressControlEnabled>
+					<WEPKeyIndex t="u">1</WEPKeyIndex>
+					<KeyPassphrase t="s" Stat="1"> </KeyPassphrase>
+					<WEPEncryptionLevel	t="s"  Stat="1">40-bit,104-bit</WEPEncryptionLevel>
+					<BasicEncryptionModes t="s"> </BasicEncryptionModes>
+					<BasicAuthenticationMode t="s">None</BasicAuthenticationMode>
+					<WPAEncryptionModes	t="s"> </WPAEncryptionModes>
+					<WPAAuthenticationMode t="s">PSKAuthentication</WPAAuthenticationMode>
+					<IEEE11iEncryptionModes	t="s"> </IEEE11iEncryptionModes>
+					<IEEE11iAuthenticationMode t="s">PSKAuthentication</IEEE11iAuthenticationMode>
+					<SSIDAdvertisementEnabled t="b">1</SSIDAdvertisementEnabled>
+					<TotalPSKFailures t="u"  Stat="1">	</TotalPSKFailures>
+					<TotalIntegrityFailures	t="u" 	Stat="1"> </TotalIntegrityFailures>
+					<PeerBSSID t="s" Stat="1"> </PeerBSSID>
+					<AuthenticationServiceMode t="s"> </AuthenticationServiceMode>
+					<WMMEnable t="b">1</WMMEnable>
+					<UAPSDEnable t="b">0</UAPSDEnable>
+					<TotalBytesSent	t="u" 	Stat="1"> </TotalBytesSent>
+					<TotalBytesReceived	t="u" 	Stat="1"> </TotalBytesReceived>
+					<TotalPacketsSent t="u"  Stat="1">	</TotalPacketsSent>
+					<TotalPacketsReceived t="u"  Stat="1">	</TotalPacketsReceived>
+					<TotalAssociations t="u"  Stat="1">0</TotalAssociations>
+					<X_TWSZ-COM_UpTime t="u"  Stat="1"></X_TWSZ-COM_UpTime>
+					<Stats t="o">
+						<ErrorsSent t="u"  Stat="1"></ErrorsSent>
+						<ErrorsReceived t="u"  Stat="1"></ErrorsReceived>
+						<UnicastPacketsSent t="u"  Stat="1"></UnicastPacketsSent>
+						<UnicastPacketsReceived t="u"  Stat="1"></UnicastPacketsReceived>
+						<DiscardPacketsSent t="u"  Stat="1"></DiscardPacketsSent>
+						<DiscardPacketsReceived t="u"  Stat="1"></DiscardPacketsReceived>
+						<MulticastPacketsSent t="u"  Stat="1"></MulticastPacketsSent>
+						<MulticastPacketsReceived t="u"  Stat="1"></MulticastPacketsReceived>
+						<BroadcastPacketsSent t="u"  Stat="1"></BroadcastPacketsSent>
+						<BroadcastPacketsReceived t="u"  Stat="1"></BroadcastPacketsReceived>
+						<UnknownProtoRacketsReceived t="u"	 Stat="1"></UnknownProtoRacketsReceived>
+					</Stats>
+					<WPS t="o" >
+						<Enable t="b" Stat="1">0</Enable>
+						<DeviceName t="s" >wlan0-va1</DeviceName>
+						<DevicePassword t="s">12345670</DevicePassword>
+						<UUID t="s"  Stat="1">63041253101920061228000000000000</UUID>
+						<Version t="u"  Stat="1"></Version>
+						<ConfigMethodsSupported t="s"  Stat="1"></ConfigMethodsSupported>
+						<ConfigMethodsEnabled t="s"></ConfigMethodsEnabled>
+						<SetupLockedState t="s" ></SetupLockedState>
+						<SetupLock t="b">0</SetupLock>
+						<ConfigurationState t="s" >Configured</ConfigurationState>
+						<LastConfigurationError t="s" ></LastConfigurationError>
+						<RegistrarNumberOfEntries t="u" ></RegistrarNumberOfEntries>
+						<RegistrarEstablished  t="b" ></RegistrarEstablished>
+						<X_TWSZ-COM_PeerPassword t="s"  Stat="1"></X_TWSZ-COM_PeerPassword>
+						<X_TWSZ-COM_StartWpsSession t="s"  Stat="1">0</X_TWSZ-COM_StartWpsSession>
+						<X_TWSZ-COM_GeneratePinEnable t="b"   Stat="1">0</X_TWSZ-COM_GeneratePinEnable>
+						<X_TWSZ-COM_GeneratePin t="s"  Cache="1" Stat="1">0</X_TWSZ-COM_GeneratePin>
+						<X_TWSZ-COM_WpsSessionStatus t="s"   Stat="1"></X_TWSZ-COM_WpsSessionStatus>
+						<X_TWSZ-COM_GeneratePinStatus t="s"   Stat="1"></X_TWSZ-COM_GeneratePinStatus>
+						<X_TWSZ-COM_SetupMethod t="s"  Cache="1" Stat="1">None</X_TWSZ-COM_SetupMethod>
+						<X_TWSZ-COM_OriginalSSID t="s"   Stat="1">NetGear-003</X_TWSZ-COM_OriginalSSID>
+						<X_TWSZ-COM_OriginalAuth t="s"   Stat="1">None</X_TWSZ-COM_OriginalAuth>
+						<X_TWSZ-COM_OriginalEnc t="s"   Stat="1">None</X_TWSZ-COM_OriginalEnc>
+						<X_TWSZ-COM_PeerMac t="s"   Stat="1"></X_TWSZ-COM_PeerMac>
+						<X_TWSZ-COM_PeerName t="s"   Stat="1"></X_TWSZ-COM_PeerName>
+						<Registrar t="o" MaxIdx="0"	>
+						</Registrar>
+					</WPS>
+					<AssociatedDevice t="o"	MaxIdx="0" 	Stat="1">
+					</AssociatedDevice>
+					<WEPKey	t="o" MaxIdx="4" >
+						<1 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</1>
+						<2 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</2>
+						<3 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</3>
+						<4 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</4>
+					</WEPKey>
+					<PreSharedKey t="o"	MaxIdx="1" >
+						<1 t="o">
+							<PreSharedKey t="s"	Password="2"> </PreSharedKey>
+							<KeyPassphrase t="s" Password="2"></KeyPassphrase>
+							<AssociatedDeviceMACAddress	t="s"> </AssociatedDeviceMACAddress>
+						</1>
+					</PreSharedKey>
+					<APWMMParameter	t="o" MaxIdx="0" >
+					</APWMMParameter>
+					<STAWMMParameter t="o" MaxIdx="0" >
+					</STAWMMParameter>
+					<X_TWSZ-COM_RadiusServer t="o" MaxIdx="2"  >
+						<1 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</1>
+						<2 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</2>
+					</X_TWSZ-COM_RadiusServer>
+					<X_TWSZ-COM_DeviceName t="s"  Stat="1">wlan0-va1</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_IsMatchCondition t="s" 	 Stat="1">0</X_TWSZ-COM_IsMatchCondition>
+					<X_TWSZ-COM_VapIndex t="u"	  Stat="1">0</X_TWSZ-COM_VapIndex>
+					<X_TWSZ-COM_MulticastRate t="s">0</X_TWSZ-COM_MulticastRate>
+					<X_TWSZ-COM_MAXSTATION t="u"	 Stat="1">16</X_TWSZ-COM_MAXSTATION>
+					<X_TWSZ-COM_APIsolate t="b" >0</X_TWSZ-COM_APIsolate>
+					<X_TWSZ-COM_AccountEnable t="b"  Stat="1">0</X_TWSZ-COM_AccountEnable>
+					<X_TWSZ-COM_AccountInterval	t="u" >100</X_TWSZ-COM_AccountInterval>
+					<X_TWSZ-COM_BakRadiusEnable	t="b" >0</X_TWSZ-COM_BakRadiusEnable>
+					<X_TWSZ-COM_WPAStrictRekey t="b" >0</X_TWSZ-COM_WPAStrictRekey>
+					<X_TWSZ-COM_WPAGroupRekey t="u" >86400</X_TWSZ-COM_WPAGroupRekey>
+					<X_TWSZ-COM_MACAddressControlAction	t="s" >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<X_TWSZ-COM_MaxMACListNumberOfEntries t="u"  Stat="1">64</X_TWSZ-COM_MaxMACListNumberOfEntries>
+					<X_TWSZ-COM_MACListNumberOfEntries t="u" >0</X_TWSZ-COM_MACListNumberOfEntries>
+					<X_TWSZ-COM_RadioInterface t="u"   Stat="1">1</X_TWSZ-COM_RadioInterface>
+					<X_TWSZ-COM_MACListEnable t="b" >0</X_TWSZ-COM_MACListEnable>
+					<X_TWSZ-COM_GuestAccess t="b" >0</X_TWSZ-COM_GuestAccess>
+					<X_TWSZ-COM_WEPEncStrength	t="s"  >40-bit</X_TWSZ-COM_WEPEncStrength>
+					<X_TWSZ-COM_MACList t="o" MaxNode="X_TWSZ-COM_MaxMACListNumberOfEntries" CurNode="X_TWSZ-COM_MACListNumberOfEntries">
+					</X_TWSZ-COM_MACList>
+					<X_TWSZ-COM_ScheduleListEnable t="b">0</X_TWSZ-COM_ScheduleListEnable>
+					<X_TWSZ-COM_MaxScheduleListNumberOfEntries t="u"  Stat="1">16</X_TWSZ-COM_MaxScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleListNumberOfEntries t="u" >0</X_TWSZ-COM_ScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleList t="o" MaxNode="X_TWSZ-COM_MaxScheduleListNumberOfEntries" CurNode="X_TWSZ-COM_ScheduleListNumberOfEntries">
+					</X_TWSZ-COM_ScheduleList>
+				</3>
+				<4 t="o">
+					<Enable t="b">0</Enable>
+					<MaxBitRate	t="s" Stat="1">Auto</MaxBitRate>
+					<Channel t="u" Stat="1">0</Channel>
+					<AutoChannelEnable t="b" Stat="1">Auto</AutoChannelEnable>
+					<Standard t="s"	 Stat="1">bgn</Standard>
+					<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+					<BasicDataTransmitRates	t="s" Stat="1"></BasicDataTransmitRates>
+					<OperationalDataTransmitRates t="s" Stat="1"></OperationalDataTransmitRates>
+					<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+					<InsecureOOBAccessEnabled t="b" Stat="1">1</InsecureOOBAccessEnabled>
+					<BeaconAdvertisementEnabled	t="b" Stat="1">1</BeaconAdvertisementEnabled>
+					<RadioEnabled t="b" Stat="1">1</RadioEnabled>
+					<TransmitPowerSupported	t="s"  Stat="1"></TransmitPowerSupported>
+					<TransmitPower t="u" Stat="1">100</TransmitPower>
+					<AutoRateFallBackEnabled t="b" Stat="1">1</AutoRateFallBackEnabled>
+					<LocationDescription t="s" Stat="1"></LocationDescription>
+					<RegulatoryDomain t="s" Stat="1">CN</RegulatoryDomain>
+					<ChannelsInUse t="s" 	Stat="1"></ChannelsInUse>
+					<DeviceOperationMode t="s" Stat="1">InfrastructureAccessPoint</DeviceOperationMode>
+					<DistanceFromRoot t="u" Stat="1">0</DistanceFromRoot>
+					<WMMSupported t="b" Stat="1">1</WMMSupported>
+					<UAPSDSupported	t="b" Stat="1">1</UAPSDSupported>
+					<PreambleType t="b" Stat="1">0</PreambleType>
+					<BeaconInterval	t="u" Stat="1">200</BeaconInterval>
+					<RCSCTSThreshlod t="u" Stat="1">2346</RCSCTSThreshlod>
+					<PowerSave t="b"  Stat="1">0</PowerSave>
+					<DTIM t="u"  Stat="1">1</DTIM>
+					<OperatingChannelBandwidth t="s"  Stat="1">40</OperatingChannelBandwidth>
+					<BSSRelay t="b"  Stat="1">0</BSSRelay>
+					<FRAGLEN t="u"  Stat="1">2346</FRAGLEN>
+					<XR	t="b"  Stat="1">0</XR>
+					<GuardInterval t="b" Stat="1">1</GuardInterval>
+					<Status t="s"  Stat="1"></Status>
+					<Name t="s" >wlan0-va2</Name>
+					<BSSID t="s"  Stat="1"> </BSSID>
+					<SSID t="s">NetGear-004</SSID>
+					<BeaconType	t="s">None</BeaconType>
+					<MACAddressControlEnabled t="b"  Cache="1">0</MACAddressControlEnabled>
+					<WEPKeyIndex t="u">1</WEPKeyIndex>
+					<KeyPassphrase t="s" Stat="1"> </KeyPassphrase>
+					<WEPEncryptionLevel	t="s"  Stat="1">40-bit,104-bit</WEPEncryptionLevel>
+					<BasicEncryptionModes t="s"> </BasicEncryptionModes>
+					<BasicAuthenticationMode t="s">None</BasicAuthenticationMode>
+					<WPAEncryptionModes	t="s"> </WPAEncryptionModes>
+					<WPAAuthenticationMode t="s">PSKAuthentication</WPAAuthenticationMode>
+					<IEEE11iEncryptionModes	t="s"> </IEEE11iEncryptionModes>
+					<IEEE11iAuthenticationMode t="s">PSKAuthentication</IEEE11iAuthenticationMode>
+					<SSIDAdvertisementEnabled t="b">1</SSIDAdvertisementEnabled>
+					<TotalPSKFailures t="u"  Stat="1">	</TotalPSKFailures>
+					<TotalIntegrityFailures	t="u" 	Stat="1"> </TotalIntegrityFailures>
+					<PeerBSSID t="s" Stat="1"> </PeerBSSID>
+					<AuthenticationServiceMode t="s"> </AuthenticationServiceMode>
+					<WMMEnable t="b">1</WMMEnable>
+					<UAPSDEnable t="b">0</UAPSDEnable>
+					<TotalBytesSent	t="u" 	Stat="1"> </TotalBytesSent>
+					<TotalBytesReceived	t="u" 	Stat="1"> </TotalBytesReceived>
+					<TotalPacketsSent t="u"  Stat="1">	</TotalPacketsSent>
+					<TotalPacketsReceived t="u"  Stat="1">	</TotalPacketsReceived>
+					<TotalAssociations t="u"  Stat="1">0</TotalAssociations>
+					<X_TWSZ-COM_UpTime t="u"  Stat="1"></X_TWSZ-COM_UpTime>
+					<Stats t="o">
+						<ErrorsSent t="u"  Stat="1"></ErrorsSent>
+						<ErrorsReceived t="u"  Stat="1"></ErrorsReceived>
+						<UnicastPacketsSent t="u"  Stat="1"></UnicastPacketsSent>
+						<UnicastPacketsReceived t="u"  Stat="1"></UnicastPacketsReceived>
+						<DiscardPacketsSent t="u"  Stat="1"></DiscardPacketsSent>
+						<DiscardPacketsReceived t="u"  Stat="1"></DiscardPacketsReceived>
+						<MulticastPacketsSent t="u"  Stat="1"></MulticastPacketsSent>
+						<MulticastPacketsReceived t="u"  Stat="1"></MulticastPacketsReceived>
+						<BroadcastPacketsSent t="u"  Stat="1"></BroadcastPacketsSent>
+						<BroadcastPacketsReceived t="u"  Stat="1"></BroadcastPacketsReceived>
+						<UnknownProtoRacketsReceived t="u"	 Stat="1"></UnknownProtoRacketsReceived>
+					</Stats>
+					<WPS t="o">
+						<Enable t="b" Stat="1">0</Enable>
+						<DeviceName t="s" >wlan0-va2</DeviceName>
+						<DevicePassword t="s">12345670</DevicePassword>
+						<UUID t="s"  Stat="1">63041253101920061228000000000000</UUID>
+						<Version t="u"  Stat="1"></Version>
+						<ConfigMethodsSupported t="s"  Stat="1"></ConfigMethodsSupported>
+						<ConfigMethodsEnabled t="s"></ConfigMethodsEnabled>
+						<SetupLockedState t="s" ></SetupLockedState>
+						<SetupLock t="b">0</SetupLock>
+						<ConfigurationState t="s"  >Configured</ConfigurationState>
+						<LastConfigurationError t="s" ></LastConfigurationError>
+						<RegistrarNumberOfEntries t="u" ></RegistrarNumberOfEntries>
+						<RegistrarEstablished  t="b" ></RegistrarEstablished>
+						<X_TWSZ-COM_PeerPassword t="s"  Stat="1"></X_TWSZ-COM_PeerPassword>
+						<X_TWSZ-COM_StartWpsSession t="s"  Stat="1">0</X_TWSZ-COM_StartWpsSession>
+						<X_TWSZ-COM_GeneratePinEnable t="b"   Stat="1">0</X_TWSZ-COM_GeneratePinEnable>
+						<X_TWSZ-COM_GeneratePin t="s"  Cache="1" Stat="1">0</X_TWSZ-COM_GeneratePin>
+						<X_TWSZ-COM_WpsSessionStatus t="s"   Stat="1"></X_TWSZ-COM_WpsSessionStatus>
+						<X_TWSZ-COM_GeneratePinStatus t="s"   Stat="1"></X_TWSZ-COM_GeneratePinStatus>
+						<X_TWSZ-COM_SetupMethod t="s"  Cache="1" Stat="1">None</X_TWSZ-COM_SetupMethod>
+						<X_TWSZ-COM_OriginalSSID t="s"   Stat="1">NetGear-004</X_TWSZ-COM_OriginalSSID>
+						<X_TWSZ-COM_OriginalAuth t="s"   Stat="1">None</X_TWSZ-COM_OriginalAuth>
+						<X_TWSZ-COM_OriginalEnc t="s"   Stat="1">None</X_TWSZ-COM_OriginalEnc>
+						<X_TWSZ-COM_PeerMac t="s"   Stat="1"></X_TWSZ-COM_PeerMac>
+						<X_TWSZ-COM_PeerName t="s"   Stat="1"></X_TWSZ-COM_PeerName>
+						<Registrar t="o" MaxIdx="0"	>
+						</Registrar>
+					</WPS>
+					<AssociatedDevice t="o"	MaxIdx="0" 	Stat="1">
+					</AssociatedDevice>
+					<WEPKey	t="o" MaxIdx="4" >
+						<1 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</1>
+						<2 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</2>
+						<3 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</3>
+						<4 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</4>
+					</WEPKey>
+					<PreSharedKey t="o"	MaxIdx="1" >
+						<1 t="o">
+							<PreSharedKey t="s"	Password="2"> </PreSharedKey>
+							<KeyPassphrase t="s" Password="2"></KeyPassphrase>
+							<AssociatedDeviceMACAddress	t="s"> </AssociatedDeviceMACAddress>
+						</1>
+					</PreSharedKey>
+					<APWMMParameter	t="o" MaxIdx="0" >
+					</APWMMParameter>
+					<STAWMMParameter t="o" MaxIdx="0" >
+					</STAWMMParameter>
+					<X_TWSZ-COM_RadiusServer t="o" MaxIdx="2"  >
+						<1 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</1>
+						<2 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</2>
+					</X_TWSZ-COM_RadiusServer>
+					<X_TWSZ-COM_DeviceName t="s"  Stat="1">wlan0-va2</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_IsMatchCondition t="s" 	 Stat="1">0</X_TWSZ-COM_IsMatchCondition>
+					<X_TWSZ-COM_VapIndex t="u"	  Stat="1">0</X_TWSZ-COM_VapIndex>
+					<X_TWSZ-COM_MulticastRate t="s">0</X_TWSZ-COM_MulticastRate>
+					<X_TWSZ-COM_MAXSTATION t="u"	 Stat="1">16</X_TWSZ-COM_MAXSTATION>
+					<X_TWSZ-COM_APIsolate t="b" >0</X_TWSZ-COM_APIsolate>
+					<X_TWSZ-COM_AccountEnable t="b"  Stat="1">0</X_TWSZ-COM_AccountEnable>
+					<X_TWSZ-COM_AccountInterval	t="u" >100</X_TWSZ-COM_AccountInterval>
+					<X_TWSZ-COM_BakRadiusEnable	t="b" >0</X_TWSZ-COM_BakRadiusEnable>
+					<X_TWSZ-COM_WPAStrictRekey t="b" >0</X_TWSZ-COM_WPAStrictRekey>
+					<X_TWSZ-COM_WPAGroupRekey t="u" >86400</X_TWSZ-COM_WPAGroupRekey>
+					<X_TWSZ-COM_MACAddressControlAction	t="s" >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<X_TWSZ-COM_MaxMACListNumberOfEntries t="u"  Stat="1">64</X_TWSZ-COM_MaxMACListNumberOfEntries>
+					<X_TWSZ-COM_MACListNumberOfEntries t="u" >0</X_TWSZ-COM_MACListNumberOfEntries>
+					<X_TWSZ-COM_RadioInterface t="u"   Stat="1">1</X_TWSZ-COM_RadioInterface>
+					<X_TWSZ-COM_MACListEnable t="b" >0</X_TWSZ-COM_MACListEnable>
+					<X_TWSZ-COM_GuestAccess t="b" >0</X_TWSZ-COM_GuestAccess>
+					<X_TWSZ-COM_WEPEncStrength	t="s"  >40-bit</X_TWSZ-COM_WEPEncStrength>
+					<X_TWSZ-COM_MACList t="o" MaxNode="X_TWSZ-COM_MaxMACListNumberOfEntries" CurNode="X_TWSZ-COM_MACListNumberOfEntries">
+					</X_TWSZ-COM_MACList>
+					<X_TWSZ-COM_ScheduleListEnable t="b">0</X_TWSZ-COM_ScheduleListEnable>
+					<X_TWSZ-COM_MaxScheduleListNumberOfEntries t="u"  Stat="1">16</X_TWSZ-COM_MaxScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleListNumberOfEntries t="u" >0</X_TWSZ-COM_ScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleList t="o" MaxNode="X_TWSZ-COM_MaxScheduleListNumberOfEntries" CurNode="X_TWSZ-COM_ScheduleListNumberOfEntries">
+					</X_TWSZ-COM_ScheduleList>
+				</4>
+				<5 t="o">
+					<Enable t="b">0</Enable>
+					<MaxBitRate	t="s" Stat="1">Auto</MaxBitRate>
+					<Channel t="u" Stat="1">0</Channel>
+					<AutoChannelEnable t="b" Stat="1">Auto</AutoChannelEnable>
+					<Standard t="s"	 Stat="1">bgn</Standard>
+					<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+					<BasicDataTransmitRates	t="s" Stat="1"></BasicDataTransmitRates>
+					<OperationalDataTransmitRates t="s" Stat="1"></OperationalDataTransmitRates>
+					<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+					<InsecureOOBAccessEnabled t="b" Stat="1">1</InsecureOOBAccessEnabled>
+					<BeaconAdvertisementEnabled	t="b" Stat="1">1</BeaconAdvertisementEnabled>
+					<RadioEnabled t="b" Stat="1">1</RadioEnabled>
+					<TransmitPowerSupported	t="s"  Stat="1"></TransmitPowerSupported>
+					<TransmitPower t="u" Stat="1">100</TransmitPower>
+					<AutoRateFallBackEnabled t="b" Stat="1">1</AutoRateFallBackEnabled>
+					<LocationDescription t="s" Stat="1"></LocationDescription>
+					<RegulatoryDomain t="s" Stat="1">CN</RegulatoryDomain>
+					<ChannelsInUse t="s" 	Stat="1"></ChannelsInUse>
+					<DeviceOperationMode t="s" Stat="1">InfrastructureAccessPoint</DeviceOperationMode>
+					<DistanceFromRoot t="u" Stat="1">0</DistanceFromRoot>
+					<WMMSupported t="b" Stat="1">1</WMMSupported>
+					<UAPSDSupported	t="b" Stat="1">1</UAPSDSupported>
+					<PreambleType t="b" Stat="1">0</PreambleType>
+					<BeaconInterval	t="u" Stat="1">200</BeaconInterval>
+					<RCSCTSThreshlod t="u" Stat="1">2346</RCSCTSThreshlod>
+					<PowerSave t="b"  Stat="1">0</PowerSave>
+					<DTIM t="u"  Stat="1">1</DTIM>
+					<OperatingChannelBandwidth t="s"  Stat="1">40</OperatingChannelBandwidth>
+					<BSSRelay t="b"  Stat="1">0</BSSRelay>
+					<FRAGLEN t="u"  Stat="1">2346</FRAGLEN>
+					<XR	t="b"  Stat="1">0</XR>
+					<GuardInterval t="b" Stat="1">1</GuardInterval>
+					<Status t="s"  Stat="1"></Status>
+					<Name t="s" >wlan0-va3</Name>
+					<BSSID t="s"  Stat="1"> </BSSID>
+					<SSID t="s">NetGear-005</SSID>
+					<BeaconType	t="s">None</BeaconType>
+					<MACAddressControlEnabled t="b"  Cache="1">0</MACAddressControlEnabled>
+					<WEPKeyIndex t="u">1</WEPKeyIndex>
+					<KeyPassphrase t="s" Stat="1"></KeyPassphrase>
+					<WEPEncryptionLevel	t="s"  Stat="1">40-bit,104-bit</WEPEncryptionLevel>
+					<BasicEncryptionModes t="s"> </BasicEncryptionModes>
+					<BasicAuthenticationMode t="s">None</BasicAuthenticationMode>
+					<WPAEncryptionModes	t="s"> </WPAEncryptionModes>
+					<WPAAuthenticationMode t="s">PSKAuthentication</WPAAuthenticationMode>
+					<IEEE11iEncryptionModes	t="s"> </IEEE11iEncryptionModes>
+					<IEEE11iAuthenticationMode t="s">PSKAuthentication</IEEE11iAuthenticationMode>
+					<SSIDAdvertisementEnabled t="b">1</SSIDAdvertisementEnabled>
+					<TotalPSKFailures t="u"  Stat="1">	</TotalPSKFailures>
+					<TotalIntegrityFailures	t="u" 	Stat="1"> </TotalIntegrityFailures>
+					<PeerBSSID t="s" Stat="1"> </PeerBSSID>
+					<AuthenticationServiceMode t="s"> </AuthenticationServiceMode>
+					<WMMEnable t="b">1</WMMEnable>
+					<UAPSDEnable t="b">0</UAPSDEnable>
+					<TotalBytesSent	t="u" 	Stat="1"> </TotalBytesSent>
+					<TotalBytesReceived	t="u" 	Stat="1"> </TotalBytesReceived>
+					<TotalPacketsSent t="u"  Stat="1">	</TotalPacketsSent>
+					<TotalPacketsReceived t="u"  Stat="1">	</TotalPacketsReceived>
+					<TotalAssociations t="u"  Stat="1">0</TotalAssociations>
+					<X_TWSZ-COM_UpTime t="u"  Stat="1"></X_TWSZ-COM_UpTime>
+					<Stats t="o">
+						<ErrorsSent t="u"  Stat="1"></ErrorsSent>
+						<ErrorsReceived t="u"  Stat="1"></ErrorsReceived>
+						<UnicastPacketsSent t="u"  Stat="1"></UnicastPacketsSent>
+						<UnicastPacketsReceived t="u"  Stat="1"></UnicastPacketsReceived>
+						<DiscardPacketsSent t="u"  Stat="1"></DiscardPacketsSent>
+						<DiscardPacketsReceived t="u"  Stat="1"></DiscardPacketsReceived>
+						<MulticastPacketsSent t="u"  Stat="1"></MulticastPacketsSent>
+						<MulticastPacketsReceived t="u"  Stat="1"></MulticastPacketsReceived>
+						<BroadcastPacketsSent t="u"  Stat="1"></BroadcastPacketsSent>
+						<BroadcastPacketsReceived t="u"  Stat="1"></BroadcastPacketsReceived>
+						<UnknownProtoRacketsReceived t="u"	 Stat="1"></UnknownProtoRacketsReceived>
+					</Stats>
+					<WPS t="o">
+						<Enable t="b" Stat="1">0</Enable>
+						<DeviceName t="s" >wlan0-va3</DeviceName>
+						<DevicePassword t="s">12345670</DevicePassword>
+						<UUID t="s"  Stat="1">63041253101920061228000000000000</UUID>
+						<Version t="u"  Stat="1"></Version>
+						<ConfigMethodsSupported t="s"  Stat="1"></ConfigMethodsSupported>
+						<ConfigMethodsEnabled t="s"></ConfigMethodsEnabled>
+						<SetupLockedState t="s" ></SetupLockedState>
+						<SetupLock t="b">0</SetupLock>
+						<ConfigurationState t="s" >Configured</ConfigurationState>
+						<LastConfigurationError t="s" ></LastConfigurationError>
+						<RegistrarNumberOfEntries t="u" ></RegistrarNumberOfEntries>
+						<RegistrarEstablished  t="b" ></RegistrarEstablished>
+						<X_TWSZ-COM_PeerPassword t="s"  Stat="1"></X_TWSZ-COM_PeerPassword>
+						<X_TWSZ-COM_StartWpsSession t="s"  Stat="1">0</X_TWSZ-COM_StartWpsSession>
+						<X_TWSZ-COM_GeneratePinEnable t="b"   Stat="1">0</X_TWSZ-COM_GeneratePinEnable>
+						<X_TWSZ-COM_GeneratePin t="s"  Cache="1" Stat="1">0</X_TWSZ-COM_GeneratePin>
+						<X_TWSZ-COM_WpsSessionStatus t="s"   Stat="1"></X_TWSZ-COM_WpsSessionStatus>
+						<X_TWSZ-COM_GeneratePinStatus t="s"   Stat="1"></X_TWSZ-COM_GeneratePinStatus>
+						<X_TWSZ-COM_SetupMethod t="s"  Cache="1" Stat="1">None</X_TWSZ-COM_SetupMethod>
+						<X_TWSZ-COM_OriginalSSID t="s"   Stat="1">NetGear-005</X_TWSZ-COM_OriginalSSID>
+						<X_TWSZ-COM_OriginalAuth t="s"   Stat="1">None</X_TWSZ-COM_OriginalAuth>
+						<X_TWSZ-COM_OriginalEnc t="s"   Stat="1">None</X_TWSZ-COM_OriginalEnc>
+						<X_TWSZ-COM_PeerMac t="s"   Stat="1"></X_TWSZ-COM_PeerMac>
+						<X_TWSZ-COM_PeerName t="s"   Stat="1"></X_TWSZ-COM_PeerName>
+						<Registrar t="o" MaxIdx="0"	>
+						</Registrar>
+					</WPS>
+					<AssociatedDevice t="o"	MaxIdx="0" 	Stat="1">
+					</AssociatedDevice>
+					<WEPKey	t="o" MaxIdx="4" >
+						<1 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</1>
+						<2 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</2>
+						<3 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</3>
+						<4 t="o">
+							<WEPKey	t="s" Password="2"></WEPKey>
+						</4>
+					</WEPKey>
+					<PreSharedKey t="o"	MaxIdx="1" >
+						<1 t="o">
+							<PreSharedKey t="s"	Password="2"> </PreSharedKey>
+							<KeyPassphrase t="s" Password="2"></KeyPassphrase>
+							<AssociatedDeviceMACAddress	t="s"> </AssociatedDeviceMACAddress>
+						</1>
+					</PreSharedKey>
+					<APWMMParameter	t="o" MaxIdx="0" >
+					</APWMMParameter>
+					<STAWMMParameter t="o" MaxIdx="0" >
+					</STAWMMParameter>
+					<X_TWSZ-COM_RadiusServer t="o" MaxIdx="2"  >
+						<1 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</1>
+						<2 t="o">
+							<X_TWSZ-COM_IPAddress t="s"	 ></X_TWSZ-COM_IPAddress>
+							<X_TWSZ-COM_Port t="u"	 >2801</X_TWSZ-COM_Port>
+							<X_TWSZ-COM_ShareKey t="s" ></X_TWSZ-COM_ShareKey>
+							<X_TWSZ-COM_AccountPort	t="u" 	>2802</X_TWSZ-COM_AccountPort>
+						</2>
+					</X_TWSZ-COM_RadiusServer>
+					<X_TWSZ-COM_DeviceName t="s"  Stat="1">wlan0-va3</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_IsMatchCondition t="s" 	 Stat="1">0</X_TWSZ-COM_IsMatchCondition>
+					<X_TWSZ-COM_VapIndex t="u"	  Stat="1">0</X_TWSZ-COM_VapIndex>
+					<X_TWSZ-COM_MulticastRate t="s">0</X_TWSZ-COM_MulticastRate>
+					<X_TWSZ-COM_MAXSTATION t="u"	 Stat="1">16</X_TWSZ-COM_MAXSTATION>
+					<X_TWSZ-COM_APIsolate t="b" >0</X_TWSZ-COM_APIsolate>
+					<X_TWSZ-COM_AccountEnable t="b"  Stat="1">0</X_TWSZ-COM_AccountEnable>
+					<X_TWSZ-COM_AccountInterval	t="u" >100</X_TWSZ-COM_AccountInterval>
+					<X_TWSZ-COM_BakRadiusEnable	t="b" >0</X_TWSZ-COM_BakRadiusEnable>
+					<X_TWSZ-COM_WPAStrictRekey t="b" >0</X_TWSZ-COM_WPAStrictRekey>
+					<X_TWSZ-COM_WPAGroupRekey t="u" >86400</X_TWSZ-COM_WPAGroupRekey>
+					<X_TWSZ-COM_MACAddressControlAction	t="s" >Whitelist</X_TWSZ-COM_MACAddressControlAction>
+					<X_TWSZ-COM_MaxMACListNumberOfEntries t="u"  Stat="1">64</X_TWSZ-COM_MaxMACListNumberOfEntries>
+					<X_TWSZ-COM_MACListNumberOfEntries t="u" >0</X_TWSZ-COM_MACListNumberOfEntries>
+					<X_TWSZ-COM_RadioInterface t="u"   Stat="1">1</X_TWSZ-COM_RadioInterface>
+					<X_TWSZ-COM_MACListEnable t="b" >0</X_TWSZ-COM_MACListEnable>
+					<X_TWSZ-COM_GuestAccess t="b" >0</X_TWSZ-COM_GuestAccess>
+					<X_TWSZ-COM_WEPEncStrength	t="s"  >40-bit</X_TWSZ-COM_WEPEncStrength>
+					<X_TWSZ-COM_MACList t="o" MaxNode="X_TWSZ-COM_MaxMACListNumberOfEntries" CurNode="X_TWSZ-COM_MACListNumberOfEntries">
+					</X_TWSZ-COM_MACList>
+					<X_TWSZ-COM_ScheduleListEnable t="b">0</X_TWSZ-COM_ScheduleListEnable>
+					<X_TWSZ-COM_MaxScheduleListNumberOfEntries t="u"  Stat="1">16</X_TWSZ-COM_MaxScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleListNumberOfEntries t="u" >0</X_TWSZ-COM_ScheduleListNumberOfEntries>
+					<X_TWSZ-COM_ScheduleList t="o" MaxNode="X_TWSZ-COM_MaxScheduleListNumberOfEntries" CurNode="X_TWSZ-COM_ScheduleListNumberOfEntries">
+					</X_TWSZ-COM_ScheduleList>
+				</5>
+			</WLANConfiguration>
+			<X_TWSZ-COM_WDSConfiguration t="o" >
+				<Enable t="b">0</Enable>
+				<DisableGuestAccess t="b">0</DisableGuestAccess>
+				<DisableRepeaterAccess t="b">0</DisableRepeaterAccess>
+				<WDSMode t="s" ></WDSMode>
+				<BaseStationMACAddress t="s"></BaseStationMACAddress>
+				<RadioInterface t="u"   Stat="1">1</RadioInterface>
+				<EncryptionModes t="s"> </EncryptionModes>
+				<WEPKey	t="s" Password="2"></WEPKey>
+				<WEPKeyIndex t="u"></WEPKeyIndex>
+				<Passphrase t="s" Password="2"></Passphrase>
+				<Repeater t="o" >
+					<IPAddress t="s" ></IPAddress>
+					<MACAddress Cache="1" t="s" ></MACAddress>
+				</Repeater>
+				<BaseStation t="o" >
+					<1 t="o">
+						 <MACAddress t="s"></MACAddress>
+						 <Description t="s"></Description>
+					</1>
+					<2 t="o">
+						 <MACAddress t="s"></MACAddress>
+						 <Description t="s"></Description>
+					</2>
+					<3 t="o">
+						 <MACAddress t="s"></MACAddress>
+						 <Description t="s"></Description>
+					</3>
+					<4 t="o">
+						 <MACAddress t="s"></MACAddress>
+						 <Description t="s"></Description>
+					</4>
+				</BaseStation>
+			</X_TWSZ-COM_WDSConfiguration>
+			<Hosts t="o">
+				<HostDetectAction t="b" >0</HostDetectAction>
+				<HostNumberOfEntries t="u"	 Stat="1">0</HostNumberOfEntries>
+				<Host t="o"	MaxIdx="0"  CurNode="HostNumberOfEntries">
+				</Host>
+			</Hosts>
+		</1>
+	</LANDevice>
+	<WANDevice t="o" MaxIdx="1"	>
+		<1 t="o">
+			<WANConnectionNumberOfEntries t="u" >1</WANConnectionNumberOfEntries>
+			<MAXWANConnectionNumberOfEntries t="u"	>8</MAXWANConnectionNumberOfEntries>
+			<WANCommonInterfaceConfig t="o">
+				<X_TWSZ-COM_DeviceName t="s"  >eth1</X_TWSZ-COM_DeviceName>
+				<EnabledForInternet	t="b">1</EnabledForInternet>
+				<WANAccessType t="s" >Ethernet</WANAccessType>
+				<Layer1UpstreamMaxBitRate t="u" > </Layer1UpstreamMaxBitRate>
+				<Layer1DownstreamMaxBitRate	t="u" > </Layer1DownstreamMaxBitRate>
+				<PhysicalLinkStatus	t="s" >	</PhysicalLinkStatus>
+				<WANAccessProvider t="s" >	</WANAccessProvider>
+				<TotalBytesSent	t="u" > </TotalBytesSent>
+				<TotalBytesReceived	t="u" > </TotalBytesReceived>
+				<TotalPacketsSent t="u" > </TotalPacketsSent>
+				<TotalPacketsReceived t="u" > </TotalPacketsReceived>
+				<X_TWSZ-COM_MaximumConnections t="u"  >8</X_TWSZ-COM_MaximumConnections>
+				<X_TWSZ-COM_MaximumIPConnections t="u"	 >8</X_TWSZ-COM_MaximumIPConnections>
+				<X_TWSZ-COM_MaximumPPPConnections t="u"  >8</X_TWSZ-COM_MaximumPPPConnections>
+				<MaximumActiveConnections t="u" >8</MaximumActiveConnections>
+				<NumberOfActiveConnections t="u" >0</NumberOfActiveConnections>
+				<X_TWSZ-COM_NumberOfEnabledConnections t="u"  >0</X_TWSZ-COM_NumberOfEnabledConnections>
+				<Connection t="o" MaxIdx="0" >
+				</Connection>
+			</WANCommonInterfaceConfig>
+			<WANEthernetInterfaceConfig t="o">
+				<Enable t="b">1</Enable>
+				<Status t="s" ></Status>
+				<MACAddress t="s" ></MACAddress>
+				<X_TWSZ-COM_FactoryMACAddress t="s" ></X_TWSZ-COM_FactoryMACAddress>
+				<X_TWSZ-COM_CloneMACAddress t="s"></X_TWSZ-COM_CloneMACAddress>
+				<X_TWSZ-COM_CloneMACState t="u">0</X_TWSZ-COM_CloneMACState>
+				<MaxBitRate t="s">Auto</MaxBitRate>
+				<DuplexMode t="s">Auto</DuplexMode>
+				<Stats t="o">
+					<BytesSent t="u" > </BytesSent>
+					<BytesReceived t="u" >	</BytesReceived>
+					<PacketsSent t="u"	> </PacketsSent>
+					<PacketsReceived t="u" > </PacketsReceived>
+				</Stats>
+				<X_TWSZ-COM_LinkStats t="o" >
+					<Status t="s"  Stat="1"></Status>
+					<UpTime t="u"  Stat="1">0</UpTime>
+				</X_TWSZ-COM_LinkStats>
+			</WANEthernetInterfaceConfig>
+			<WANConnectionDevice t="o" MaxIdx="1">
+				<1 t="o">
+					<X_TWSZ-COM_DeviceName t="s"  >eth1</X_TWSZ-COM_DeviceName>
+					<X_TWSZ-COM_Description	t="s" >Ethernet</X_TWSZ-COM_Description>
+					<X_TWSZ-COM_VLANID t="u"  > </X_TWSZ-COM_VLANID>
+					<X_TWSZ-COM_VLANPriority t="u"  > </X_TWSZ-COM_VLANPriority>
+					<X_TWSZ-COM_VLANUntag t="b"  >0</X_TWSZ-COM_VLANUntag>
+					<X_TWSZ-COM_ConnectionMode t="s" >Routed</X_TWSZ-COM_ConnectionMode>
+					<X_TWSZ-COM_DualAccessEnable t="s" >0</X_TWSZ-COM_DualAccessEnable>
+					<X_TWSZ-COM_DualAccessIPAddress t="s" ></X_TWSZ-COM_DualAccessIPAddress>
+					<X_TWSZ-COM_DualAccessSubnetMask t="s" ></X_TWSZ-COM_DualAccessSubnetMask>
+					<X_TWSZ-COM_DualAccessDefaultGateWay t="s" ></X_TWSZ-COM_DualAccessDefaultGateWay>
+					<X_TWSZ-COM_DualAccessConnectionType t="s" >DHCP</X_TWSZ-COM_DualAccessConnectionType>
+					<X_TWSZ-COM_DualAccessAddressType t="s" >DHCP</X_TWSZ-COM_DualAccessAddressType>
+					<X_TWSZ-COM_DualAccessStatus t="s" >Disconnected</X_TWSZ-COM_DualAccessStatus>
+					<X_TWSZ-COM_DualAccessDNSServers t="s" ></X_TWSZ-COM_DualAccessDNSServers>
+					<WANPPPConnectionNumberOfEntries t="u" >0</WANPPPConnectionNumberOfEntries>
+					<MaxPPPConnectionNumberOfEntries t="u" >1</MaxPPPConnectionNumberOfEntries>
+					<WANPPPConnection t="o" CurNode="WANPPPConnectionNumberOfEntries" MaxNode="MaxPPPConnectionNumberOfEntries">
+					</WANPPPConnection>
+					<WANIPConnectionNumberOfEntries	t="u" >1</WANIPConnectionNumberOfEntries>
+					<MaxIPConnectionNumberOfEntries t="u" >1</MaxIPConnectionNumberOfEntries>
+					<WANIPConnection t="o" CurNode="WANIPConnectionNumberOfEntries" MaxIdx="1">
+						<1 t="o">
+							<RouteProtocolRx t="s"></RouteProtocolRx>
+							<X_TWSZ-COM_PortMappingEnabled t="b" >1</X_TWSZ-COM_PortMappingEnabled>
+							<PortMappingNumberOfEntries t="u" >0</PortMappingNumberOfEntries>
+							<X_TWSZ-COM_MaxPortMappingEntries t="u"  >32</X_TWSZ-COM_MaxPortMappingEntries>
+							<X_TWSZ-COM_DMZHost t="s" ></X_TWSZ-COM_DMZHost>
+							<X_TWSZ-COM_DMZEnabled t="b" >0</X_TWSZ-COM_DMZEnabled>
+							<X_TWSZ-COM_NATType t="s" >ConeNat</X_TWSZ-COM_NATType>
+							<NATEnabled t="b">1</NATEnabled>
+							<X_TWSZ-COM_NTPServers t="s" ></X_TWSZ-COM_NTPServers>
+							<X_TWSZ-COM_GetNTPServers t="b" >0</X_TWSZ-COM_GetNTPServers>
+							<X_TWSZ-COM_DomainName t="s" ></X_TWSZ-COM_DomainName>
+							<DefaultGateway	t="s">100.100.100.1</DefaultGateway>
+							<SubnetMask t="s">255.255.255.0</SubnetMask>
+							<ExternalIPAddress t="s">100.100.100.100</ExternalIPAddress>
+							<X_TWSZ-COM_DhcpServerAddress t="s"></X_TWSZ-COM_DhcpServerAddress>
+							<X_TWSZ-COM_DhcpServerReleaseRenew Cache="1" t="s">Unconfigured</X_TWSZ-COM_DhcpServerReleaseRenew>
+							<X_TWSZ-COM_DhcpServerLease  t="s">0</X_TWSZ-COM_DhcpServerLease>
+							<X_TWSZ-COM_DhcpServerLeaseUptime t="s"></X_TWSZ-COM_DhcpServerLeaseUptime>
+							<AddressingType	t="s">DHCP</AddressingType>
+							<LastConnectionError t="s" >ERROR_NONE</LastConnectionError>
+							<X_TWSZ-COM_DynamicStatus t="s"	>Disconnected</X_TWSZ-COM_DynamicStatus>
+							<X_TWSZ-COM_DelFlag t="s"  >0</X_TWSZ-COM_DelFlag>
+							<X_TWSZ-COM_ConnectedDeviceName	t="s"  ></X_TWSZ-COM_ConnectedDeviceName>
+							<Name t="s">1_INTERNET_R</Name>
+							<ConnectionStatus t="s">Disconnected</ConnectionStatus>
+							<ConnectionNetgear t="s"></ConnectionNetgear>
+							<Enable	t="b">1</Enable>
+							<Username t="s"></Username>
+							<Password t="s"></Password>
+							<X_TWSZ-COM_ProtocolType t="s"  >IPv6</X_TWSZ-COM_ProtocolType>
+							<X_TWSZ-COM_VLANPriority t="i"  >-1</X_TWSZ-COM_VLANPriority>
+							<X_TWSZ-COM_VLANID t="u"  >0</X_TWSZ-COM_VLANID>
+							<X_TWSZ-COM_ServiceList t="s" >INTERNET</X_TWSZ-COM_ServiceList>
+							<X_TWSZ-COM_LanInterface t="s" ></X_TWSZ-COM_LanInterface>
+							<ConnectionType	t="s">IP_Routed</ConnectionType>
+							<X_TWSZ-COM_UsrDNSServers t="s"	></X_TWSZ-COM_UsrDNSServers>
+							<DNSServers t="s">100.100.100.109,100.100.100.110</DNSServers>
+							<DNSOverrideAllowed t="b">0</DNSOverrideAllowed>
+							<DNSEnabled t="b">1</DNSEnabled>
+							<MaxMTUSize t="u" >1500</MaxMTUSize>
+							<X_TWSZ-COM_VendorId t="s" ></X_TWSZ-COM_VendorId>
+							<X_TWSZ-COM_Hostname t="s" Cache="1" >WNR612v3</X_TWSZ-COM_Hostname>
+							<X_TWSZ-COM_Domainname t="s" Cache="1" ></X_TWSZ-COM_Domainname>
+							<Stats t="o" >
+								<EthernetBytesSent t="u" >0</EthernetBytesSent>
+								<EthernetBytesReceived t="u" >0</EthernetBytesReceived>
+								<EthernetPacketsSent t="u" >0</EthernetPacketsSent>
+								<EthernetPacketsReceived t="u" >0</EthernetPacketsReceived>
+								<EthernetErrorsSent t="u" >0</EthernetErrorsSent>
+								<EthernetErrorsReceived t="u" >0</EthernetErrorsReceived>
+								<EthernetDiscardPacketsSent t="u" >0</EthernetDiscardPacketsSent>
+								<EthernetDiscardPacketsReceived t="u" >0</EthernetDiscardPacketsReceived>
+							</Stats>
+							<X_TWSZ-COM_IPv6Config t="o">
+								<IPv6NTPServers t="s" ></IPv6NTPServers>
+								<GetIPv6NTPServers t="b">0</GetIPv6NTPServers>
+								<UsrIPv6DNSServers t="s"></UsrIPv6DNSServers>
+								<IPv6DNSServers t="s" ></IPv6DNSServers>
+								<IPv6DNSOverrideAllowed t="b">0</IPv6DNSOverrideAllowed>
+								<IPv6DNSEnabled t="b">1</IPv6DNSEnabled>
+								<IPv6PrefixDelegationEnabled t="b">1</IPv6PrefixDelegationEnabled>
+								<DUID t="s">00:01:00:01:00:00:00:01:00:00:00:00:00:01</DUID>
+								<DUIDConfigType t="s">Auto</DUIDConfigType>
+								<X_TWSZ-COM_ConnectedDeviceName t="s" >eth1</X_TWSZ-COM_ConnectedDeviceName>
+								<ConnectionStatus t="s" >Disconnected</ConnectionStatus>
+								<IPv6AddressList t="o"  MaxIdx="3">
+									<1 t="o">
+										<AddressStatus t="s" >Invalid</AddressStatus>
+										<PrefixLength t="u" ></PrefixLength>
+										<IPv6Address t="s" ></IPv6Address>
+										<AddressingType t="s" >DHCP</AddressingType>
+										<AddressScope t="s" >Global</AddressScope>
+									</1>
+									<2 t="o">
+										<AddressStatus t="s" >Invalid</AddressStatus>
+										<PrefixLength t="u" ></PrefixLength>
+										<IPv6Address t="s" ></IPv6Address>
+										<AddressingType t="s" >Auto</AddressingType>
+										<AddressScope t="s" >LinkLocal</AddressScope>
+									</2>
+									<3 t="o">
+										<AddressStatus t="s" >Invalid</AddressStatus>
+										<PrefixLength t="u" ></PrefixLength>
+										<IPv6Address t="s" ></IPv6Address>
+										<AddressingType t="s" >Auto</AddressingType>
+										<AddressScope t="s" >Global</AddressScope>
+									</3>
+								</IPv6AddressList>
+								<IPv6DefaultRouterList t="o"  MaxIdx="2">
+									<1 t="o">
+										<DefaultRouter t="s" ></DefaultRouter>
+										<ConfigType t="s" >OTHER</ConfigType>
+									</1>
+									<2 t="o">
+										<DefaultRouter t="s" ></DefaultRouter>
+										<ConfigType t="s" >Auto</ConfigType>
+									</2>
+								</IPv6DefaultRouterList>
+								<IPv6SitePrefixInfo t="o">
+									<PrefixStatus t="s" >Invalid</PrefixStatus>
+									<ValidLifeTime t="s" ></ValidLifeTime>
+									<PreferredLifeTime t="s" ></PreferredLifeTime>
+									<IPv6SitePrefixLength t="u" ></IPv6SitePrefixLength>
+									<IPv6SitePrefix t="s" ></IPv6SitePrefix>
+								</IPv6SitePrefixInfo>
+							</X_TWSZ-COM_IPv6Config>
+							<PortMapping t="o" MaxNode="X_TWSZ-COM_MaxPortMappingEntries" CurNode="PortMappingNumberOfEntries"></PortMapping>
+						</1>
+					</WANIPConnection>
+					<WANEthernetLinkConfig t="o">
+						<X_TWSZ-COM_Name t="s"  >eth1</X_TWSZ-COM_Name>
+						<EthernetLinkStatus t="s" >	</EthernetLinkStatus>
+					</WANEthernetLinkConfig>
+				</1>
+			</WANConnectionDevice>
+		</1>
+	</WANDevice>
+	<X_TWSZ-COM_Authentication t="o" >
+                <NewInterfaceIP t="s" ></NewInterfaceIP>
+		<SessionTimeout	t="u" >300</SessionTimeout>
+		<WhoManagedDevice t="s" ></WhoManagedDevice>
+		<MaxUserEntries	t="u" 	>1</MaxUserEntries>
+		<UserNumberOfEntries t="u"	 >3</UserNumberOfEntries>
+		<UserList t="o"	MaxIdx="2" >
+			<1 t="o">
+				<UserName t="s"	 >admin</UserName>
+				<Password t="s"	 >$1$TW$OvNbwRHbwQLsxJcWoJkE3/</Password>
+				<Level t="u"  >1</Level>
+			</1>
+			<2 t="o">
+				<UserName t="s"	 >user</UserName>
+				<Password t="s"	 >$1$TW$3q69ksdrX7zaaLg54vFxN0</Password>
+				<Level t="u"  >2</Level>
+			</2>
+		</UserList>
+	</X_TWSZ-COM_Authentication>
+	<X_TWSZ-COM_IGMP t="o" 	>
+		<Snooping t="o">
+			<Enable	t="b" 	>1</Enable>
+			<ForbidPhyPort1	t="b" 	>0</ForbidPhyPort1>
+			<ForbidPhyPort2	t="b" 	>0</ForbidPhyPort2>
+			<ForbidPhyPort3	t="b" 	>0</ForbidPhyPort3>
+			<ForbidPhyPort4	t="b" 	>0</ForbidPhyPort4>
+		</Snooping>
+		<Proxy t="o">
+			<Enable	t="b" 	>1</Enable>
+			<WANPathName t="s" 	>InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1</WANPathName>
+			<LANPathName t="s" 	>InternetGatewayDevice.LANDevice.1</LANPathName>
+		</Proxy>
+		<Iptv t="o">
+			<Enable	t="b" 	>0</Enable>
+			<BridgeDeviceName t="s"  >br1</BridgeDeviceName>
+			<BindDeviceName t="s"  >none</BindDeviceName>
+		</Iptv>
+	</X_TWSZ-COM_IGMP>
+	<X_TWSZ-COM_Mail t="o" MaxIdx="0"  >
+		<Enable t="b"  >0</Enable>
+		<SmtpHost t="s"  ></SmtpHost>
+		<SmtpPort t="u"  >25</SmtpPort>
+		<SmtpUsername t="s"  ></SmtpUsername>
+		<SmtpPassword t="s"  ></SmtpPassword>
+		<SenderMail t="s"  ></SenderMail>
+		<TosendMail t="s"  ></TosendMail>
+		<Authrq t="b"  >0</Authrq>
+		<Alertsend t="b"  >0</Alertsend>
+		<Fullenable t="b"  >0</Fullenable>
+		<Hourenable t="b"  >0</Hourenable>
+		<Dayenable t="b"  >0</Dayenable>
+		<Weekenable t="b"  >0</Weekenable>
+		<Weektime t="u"  >0</Weektime>
+		<Clocktime t="u"  >0</Clocktime>
+		<SendCMD t="u"  Cache="1"   >0</SendCMD>		
+	</X_TWSZ-COM_Mail>
+	<X_TWSZ-COM_TurboVideo t="o"   >
+		<Enable t="b">0</Enable>
+		<DownShapingRate t="i">10000</DownShapingRate>
+		<Classification t="o">
+			<1 t="o" >
+				<SourceIP t="s"></SourceIP>
+				<CommittedRate t="i">5000</CommittedRate>
+			</1>
+		</Classification>
+	</X_TWSZ-COM_TurboVideo>
+	<X_TWSZ-COM_QoS	t="o"  >
+		<Enable t="b">0</Enable>
+		<ShapingRateEnable t="b">0</ShapingRateEnable>
+		<RateMode t="i">0</RateMode>
+		<ShapingRate t="s">256</ShapingRate>
+		<LinkRate t="s">undetect</LinkRate>
+		<LinkRateDetect t="s" Cache="1" >0</LinkRateDetect>
+		<WanInterface t="s">eth1</WanInterface>
+		<MAXClassificationInstance t="i">33</MAXClassificationInstance>
+		<DeleteAllRules t="s" Cache="1">0</DeleteAllRules>
+		<Classification t="o" MaxIdx="28" MaxNode="MAXClassificationInstance">
+			<1 t="o">
+				<Enable t="b">0</Enable>
+				<PolicyName t="s">BYFACTORY2010</PolicyName>
+				<Description t="s">BYFACTORY2010</Description>
+				<Priority t="i">1</Priority>	
+				<Protocol t="i">0</Protocol>
+				<DestPort t="s"></DestPort>
+				<PhyPort t="s">-1</PhyPort>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<SourceIP t="s"></SourceIP>
+			</1>
+			<2 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">1863</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">MSN_messenger_0101000</Description>
+				<PolicyName t="s">MSN Messenger</PolicyName>
+				<Enable t="b">1</Enable>
+			</2>
+			<3 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">5050</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Yahoo_Messenger_0101001</Description>
+				<PolicyName t="s">Yahoo Messenger</PolicyName>
+				<Enable t="b">1</Enable>
+			</3>
+			<4 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">6670</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">2</Priority>
+				<Description t="s">IP_Phone_0101002</Description>
+				<PolicyName t="s">IP Phone</PolicyName>
+				<Enable t="b">1</Enable>
+			</4>
+			<5 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">69</DestPort>
+				<Protocol t="i">17</Protocol>
+				<Priority t="i">2</Priority>
+				<Description t="s">Vonage_IP_Phone_0101003</Description>
+				<PolicyName t="s">Vonage IP Phone</PolicyName>
+				<Enable t="b">1</Enable>
+			</5>
+			<6 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">1720</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">NetMeeting_0101004</Description>
+				<PolicyName t="s">Net Meeting</PolicyName>
+				<Enable t="b">1</Enable>
+			</6>
+			<7 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">5190</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">AIM_0101005</Description>
+				<PolicyName t="s">AIM</PolicyName>
+				<Enable t="b">1</Enable>
+			</7>
+			<8 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">5222</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">2</Priority>
+				<Description t="s">Google_Talk_0101006</Description>
+				<PolicyName t="s">Google Talk</PolicyName>
+				<Enable t="b">1</Enable>
+			</8>
+			<9 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">49152:49155</DestPort>
+				<Protocol t="i">17</Protocol>
+				<Priority t="i">2</Priority>
+				<Description t="s">Netgear_EVA_0101007</Description>
+				<PolicyName t="s">Netgear EVA</PolicyName>
+				<Enable t="b">1</Enable>
+			</9>
+			<10 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">22</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">SSH_0101008</Description>
+				<PolicyName t="s">SSH</PolicyName>
+				<Enable t="b">1</Enable>
+			</10>
+			<11 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">23</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Telnet_0101009</Description>
+				<PolicyName t="s">Telnet</PolicyName>
+				<Enable t="b">1</Enable>
+			</11>
+			<12 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">1723</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">VPN_01010010</Description>
+				<PolicyName t="s">VPN</PolicyName>
+				<Enable t="b">1</Enable>
+			</12>
+			<13 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">21</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">4</Priority>
+				<Description t="s">FTP_01010011</Description>
+				<PolicyName t="s">FTP</PolicyName>
+				<Enable t="b">1</Enable>
+			</13>
+			<14 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">25</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">4</Priority>
+				<Description t="s">SMTP_01010012</Description>
+				<PolicyName t="s">SMTP</PolicyName>
+				<Enable t="b">1</Enable>
+			</14>
+			<15 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">80</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">4</Priority>
+				<Description t="s">WWW_01010013</Description>
+				<PolicyName t="s">WWW</PolicyName>
+				<Enable t="b">1</Enable>
+			</15>
+			<16 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">53</DestPort>
+				<Protocol t="i">17</Protocol>
+				<Priority t="i">4</Priority>
+				<Description t="s">DNS_01010014</Description>
+				<PolicyName t="s">DNS</PolicyName>
+				<Enable t="b">1</Enable>
+			</16>
+			<17 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s"></DestPort>
+				<Protocol t="i">1</Protocol>
+				<Priority t="i">4</Priority>
+				<Description t="s">ICMP_01010015</Description>
+				<PolicyName t="s">ICMP</PolicyName>
+				<Enable t="b">1</Enable>
+			</17>
+			<18 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">4662</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">5</Priority>
+				<Description t="s">eMule/eDonkey_01010016</Description>
+				<PolicyName t="s">eMule/eDonkey</PolicyName>
+				<Enable t="b">1</Enable>
+			</18>
+			<19 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">1214</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">5</Priority>
+				<Description t="s">Kazaa_01010017</Description>
+				<PolicyName t="s">Kazaa</PolicyName>
+				<Enable t="b">1</Enable>
+			</19>
+			<20 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">6346</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">5</Priority>
+				<Description t="s">Gnutella_01010018</Description>
+				<PolicyName t="s">Gnutella</PolicyName>
+				<Enable t="b">1</Enable>
+			</20>
+			<21 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">6881</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">5</Priority>
+				<Description t="s">BT/Azureus_01010019</Description>
+				<PolicyName t="s">BT/Azureus</PolicyName>
+				<Enable t="b">1</Enable>
+			</21>
+			<22 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">27015:27019</DestPort>
+				<Protocol t="i">17</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Counter-Strike_0101010</Description>
+				<PolicyName t="s">Counter Strike</PolicyName>
+				<Enable t="b">1</Enable>
+			</22>
+			<23 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">23978</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Age-of-Empires_0101011</Description>
+				<PolicyName t="s">Age of Empires</PolicyName>
+
+				<Enable t="b">1</Enable>
+			</23>
+			<24 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">6000</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Everquest_0101012</Description>
+				<PolicyName t="s">Everquest</PolicyName>
+				<Enable t="b">1</Enable>
+			</24>
+			<25 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">27910</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Quake-2_0101013</Description>
+				<PolicyName t="s">Quake 2</PolicyName>
+				<Enable t="b">1</Enable>
+			</25>
+			<26 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">27960</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Quake-3_0101014</Description>
+				<PolicyName t="s">Quake 3</PolicyName>
+				<Enable t="b">1</Enable>
+			</26>
+			<27 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">7783</DestPort>
+				<Protocol t="i">0</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Unreal-Tourment_0101015</Description>
+				<PolicyName t="s">Unreal Tourment</PolicyName>
+				<Enable t="b">1</Enable>
+			</27>
+			<28 t="o">
+				<SourceIP t="s"></SourceIP>
+				<SourceMACAddress t="s"></SourceMACAddress>
+				<PhyPort t="s">-1</PhyPort>
+				<DestPort t="s">6112</DestPort>
+				<Protocol t="i">6</Protocol>
+				<Priority t="i">3</Priority>
+				<Description t="s">Warcraft_0101016</Description>
+				<PolicyName t="s">Warcraft</PolicyName>
+				<Enable t="b">1</Enable>
+			</28>
+		</Classification>
+	</X_TWSZ-COM_QoS>
+	<X_TWSZ-COM_Logger t="o">
+		<LoggerEnabled t="b"  > </LoggerEnabled>
+		<InterLogEnabled t="b"  >1</InterLogEnabled>		
+		<OperLogEnabled t="b"  >1</OperLogEnabled>		
+		<LoginLogEnabled t="b"  >1</LoginLogEnabled>
+		<BlockLogEnabled t="b"  >1</BlockLogEnabled>
+		<WireLogEnabled t="b"  >1</WireLogEnabled>	
+		<DosLogEnabled t="b"  >1</DosLogEnabled>	
+		<PortLogEnable t="b"  >1</PortLogEnable>			
+		<LogTFTPServer t="s"  >	</LogTFTPServer>
+		<LogUploadTrigger t="b"  >	</LogUploadTrigger>
+		<LogClearTrigger t="b"	 > </LogClearTrigger>
+		<DebugLogEnabled t="b"	 > </DebugLogEnabled>
+		<DebugLogFileSize t="u"  >	</DebugLogFileSize>
+		<RemoteLogEnabled t="b"  >	</RemoteLogEnabled>
+		<RemotePort	t="u" 	>514</RemotePort>
+		<RemoteLogger t="s"	 > </RemoteLogger>
+		<LogLevel t="o">
+			<Default t="s" 	>Notice</Default>
+			<Ccp t="s" 	>Notice</Ccp>
+			<Auth t="s"	 >Notice</Auth>
+			<Igmp_proxy	t="s"  >Notice</Igmp_proxy>
+			<Cmm t="s" 	>Notice</Cmm>
+			<Lan t="s" 	>Notice</Lan>
+			<Ipt t="s" 	>Notice</Ipt>
+			<Ethlan	t="s"  >Notice</Ethlan>
+			<Ethwan	t="s"  >Notice</Ethwan>
+			<Pppoe t="s"  >Notice</Pppoe>
+			<Wlan t="s"	 >Notice</Wlan>
+			<Tr069be t="s" 	>Notice</Tr069be>
+			<Dgn t="s" 	>Notice</Dgn>
+			<Dhcpr t="s"  >Notice</Dhcpr>
+			<Dhcps t="s"  >Notice</Dhcps>
+			<Timer t="s"  >Notice</Timer>
+			<Ipconn	t="s"  >Notice</Ipconn>
+			<Firewall t="s"	 >Notice</Firewall>
+			<AntiAttack	t="s"  >Notice</AntiAttack>
+			<Snmpc t="s"  >Notice</Snmpc>
+			<Qos t="s" 	>Notice</Qos>
+			<Sroute	t="s"  >Notice</Sroute>
+			<Vdsl t="s"	 >Notice</Vdsl>
+			<Dns t="s" 	>Notice</Dns>
+			<Alg t="s" 	>Notice</Alg>
+			<Wan t="s" 	>Notice</Wan>
+			<Droute	t="s"  >Notice</Droute>
+			<Sntp t="s"	 >Notice</Sntp>
+			<Vlan t="s"	 >Notice</Vlan>
+			<Usb_mass t="s"	 >Notice</Usb_mass>
+			<Log t="s" 	>Notice</Log>
+			<Ftpd t="s"	 >Notice</Ftpd>
+			<NatPrio t="s" 	>Notice</NatPrio>
+			<Wps t="s" 	>Notice</Wps>
+			<Acl t="s" 	>Notice</Acl>
+			<Upnp t="s"	 >Notice</Upnp>
+			<Lsvlan	t="s"  >Notice</Lsvlan>
+			<Portoff t="s" 	>Notice</Portoff>
+			<Urlfilter t="s"  >Notice</Urlfilter>
+			<Devinfo t="s" 	>Notice</Devinfo>
+		</LogLevel>
+	</X_TWSZ-COM_Logger>
+	<X_TWSZ-COM_DynamicRouting t="o" MaxIdx="0"	 >
+		<Enable	t="b" >0</Enable>
+		<ForwardNumberOfEntries	t="u" >1</ForwardNumberOfEntries>
+		<Forwarding	t="o" MaxIdx="1">
+			<1 t="o">
+				<Enable	t="u" >0</Enable>
+				<InterfaceName t="s" >InternetGatewayDevice.LANDevice.1.</InterfaceName>
+				<Version t="u"	>0</Version>
+				<Operation t="u" >0</Operation>
+			</1>
+		</Forwarding>
+	</X_TWSZ-COM_DynamicRouting>
+	<X_TWSZ-COM_AntiAttack t="o">
+		<AntiDosEnable t="b">0</AntiDosEnable>
+		<AntiLogEnable t="b">0</AntiLogEnable>
+		<AntiDos t="o">
+			<SynCookieEnable t="b">1</SynCookieEnable>
+			<SynMaxConnections t="u">50</SynMaxConnections>
+			<IcmpEchoIgnrBcastEnable t="b">1</IcmpEchoIgnrBcastEnable>
+			<IgnrPortScanEnable	t="b">1</IgnrPortScanEnable>
+			<AntiFraggleEnable t="b">1</AntiFraggleEnable>
+			<AntiEchoCargenEnable t="b">1</AntiEchoCargenEnable>
+			<AntiIPLandEnable t="b">1</AntiIPLandEnable>
+		</AntiDos>
+		<AntiScan t="o">
+			<AntiScanSetSynFinEnable t="b">1</AntiScanSetSynFinEnable>
+			<AntiScanSetSynRstEnable t="b">1</AntiScanSetSynRstEnable>
+			<AntiScanSetFinRstEnable t="b">1</AntiScanSetFinRstEnable>
+			<AntiScanUnAckSetFinEnable t="b">1</AntiScanUnAckSetFinEnable>
+			<AntiScanUnAckSetPshEnable t="b">1</AntiScanUnAckSetPshEnable>
+			<AntiScanUnAckSetUrgEnable t="b">1</AntiScanUnAckSetUrgEnable>
+			<AntiScanUnsetAllEnable	t="b">1</AntiScanUnsetAllEnable>
+			<AntiScanSetAllEnable t="b">1</AntiScanSetAllEnable>
+			<AntiScanForAllSetSynRstAckFinUrgEnable	t="b">1</AntiScanForAllSetSynRstAckFinUrgEnable>
+			<AntiScanForAllSetFinEnable	t="b">1</AntiScanForAllSetFinEnable>
+			<AntiScanForAllSetFinUrgPshEnable t="b">1</AntiScanForAllSetFinUrgPshEnable>
+		</AntiScan>
+	</X_TWSZ-COM_AntiAttack>
+	<X_TWSZ-COM_DOS t="o">
+		<OpMode t="u">0</OpMode>
+		<DosEnable t="b">0</DosEnable>
+		<DosSysSynFlood t="i">-1</DosSysSynFlood>
+		<DosSysFinFlood t="i">-1</DosSysFinFlood>
+		<DosSysUdpFlood t="i">-1</DosSysUdpFlood>
+		<DosSysIcmpFlood t="i">-1</DosSysIcmpFlood>
+		<DosPipSynFlood t="i">100</DosPipSynFlood>
+		<DosPipFinFlood t="i">100</DosPipFinFlood>
+		<DosPipUdpFlood t="i">300</DosPipUdpFlood>
+		<DosPipIcmpFlood t="i">200</DosPipIcmpFlood>
+		<DosBlockTime t="i">1</DosBlockTime>
+		<TCPUDPPortScan t="i">1</TCPUDPPortScan>
+		<ICMPSmurfEnabled t="b">1</ICMPSmurfEnabled>
+		<IPLandEnabled t="b">1</IPLandEnabled>
+		<IPSpoofEnabled t="b">1</IPSpoofEnabled>
+		<IPTearDropEnabled t="b">1</IPTearDropEnabled>
+		<PingOfDeathEnabled t="b">1</PingOfDeathEnabled>
+		<TCPScanEnabled t="b">1</TCPScanEnabled>
+		<TCPSynWithDataEnabled t="b">1</TCPSynWithDataEnabled>
+		<UDPBombEnabled t="b">1</UDPBombEnabled>
+		<UDPEchoChargenEnabled t="b">1</UDPEchoChargenEnabled>
+	</X_TWSZ-COM_DOS>
+	<X_TWSZ-COM_Firewall t="o">
+		<IPFilterEnable	t="b">0</IPFilterEnable>
+		<SchedulePath t="s">Never</SchedulePath>
+		<SecurityLevel t="u">1</SecurityLevel>
+		<CurrentLANFilterTable t="u">2</CurrentLANFilterTable>
+		<CurrentWANFilterTable t="u">3</CurrentWANFilterTable>
+		<MaxFilterNumberOfEntries t="u" >20</MaxFilterNumberOfEntries>
+		<WanBlackFilterNumberOfEntries t="u" >0</WanBlackFilterNumberOfEntries>
+		<WanWhiteFilterNumberOfEntries t="u" >0</WanWhiteFilterNumberOfEntries>
+		<LanBlackFilterNumberOfEntries t="u" >0</LanBlackFilterNumberOfEntries>
+		<LanWhiteFilterNumberOfEntries t="u" >0</LanWhiteFilterNumberOfEntries>
+		<WanBlackFilter	t="o" MaxIdx="0" CurNode="WanBlackFilterNumberOfEntries" MaxNode="MaxFilterNumberOfEntries"> </WanBlackFilter>
+		<WanWhiteFilter	t="o" MaxIdx="0" CurNode="WanWhiteFilterNumberOfEntries" MaxNode="MaxFilterNumberOfEntries"> </WanWhiteFilter>
+		<LanBlackFilter	t="o" MaxIdx="0" CurNode="LanBlackFilterNumberOfEntries" MaxNode="MaxFilterNumberOfEntries"> </LanBlackFilter>
+		<LanWhiteFilter	t="o" MaxIdx="0" CurNode="LanWhiteFilterNumberOfEntries" MaxNode="MaxFilterNumberOfEntries"> </LanWhiteFilter>
+	</X_TWSZ-COM_Firewall>
+	<X_TWSZ-COM_ACL	t="o">
+		<RACLEnable	t="b">1</RACLEnable>
+		<RACLNumberOfEntries t="u"	>1</RACLNumberOfEntries>
+		<RACL t="o"	 CurNode="RACLNumberOfEntries">
+			<1 t="o">
+				<Cache_DeviceName t="s" ></Cache_DeviceName>
+				<Cache_DeviceIP t="s" ></Cache_DeviceIP>
+				<DevPath t="s" >InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1</DevPath>
+				<ServiceNumberOfEntries t="u" >2</ServiceNumberOfEntries>
+				<Service t="o"  CurNode="ServiceNumberOfEntries" MaxIdx="2">
+					<1 t="o">
+						<Enable t="b">0</Enable>
+						<Name t="s" >PING</Name>
+						<Protocol t="s" >ICMP</Protocol>
+						<SrcIP t="s">0.0.0.0</SrcIP>
+						<SrcMask t="s">0.0.0.0</SrcMask>
+						<EndSrcIP t="s">255.255.255.255</EndSrcIP>
+						<InternalPort t="u" >0</InternalPort>
+						<ExternalPort t="u">0</ExternalPort>
+					</1>
+					<2 t="o">
+						<Enable t="b">0</Enable>
+						<Name t="s" >WWW</Name>
+						<Protocol t="s" >TCP</Protocol>
+						<SrcIP t="s" Cache="1">0.0.0.0</SrcIP>
+						<SrcMask t="s">0.0.0.0</SrcMask>
+						<EndSrcIP t="s" Cache="1">255.255.255.255</EndSrcIP>
+						<InternalPort t="u" >80</InternalPort>
+						<ExternalPort t="u">8080</ExternalPort>
+					</2>
+				</Service>
+			</1>
+		</RACL>
+		<LACLEnable	t="b">1</LACLEnable>
+		<LACLNumberOfEntries t="u"	>0</LACLNumberOfEntries>
+		<LACL t="o"	MaxIdx="1" 	CurNode="LACLNumberOfEntries">
+		</LACL>
+	</X_TWSZ-COM_ACL>
+	<X_TWSZ-COM_PortTrigger t="o">
+		<Enable	t="b">0</Enable>
+        <Timeout t="u">20</Timeout>
+		<MaxNumberOfEntries t="u" >32</MaxNumberOfEntries>
+		<NumberOfEntries t="u" >0</NumberOfEntries>
+		<TriggerList t="o" MaxIdx="0" CurNode="NumberOfEntries" MaxNode="MaxNumberOfEntries">
+		</TriggerList>
+	</X_TWSZ-COM_PortTrigger>
+	<X_TWSZ-COM_Nat	t="o" >
+		<LogEnabled t="b">1</LogEnabled>
+		<NATEnabled t="b">1</NATEnabled>
+		<NATType t="s" >RestrictedConeNat</NATType>
+		<DMZEnabled t="b" >0</DMZEnabled>
+		<DMZHost t="s" ></DMZHost>
+		<IPv6PassThroughEnabled t="b" >0</IPv6PassThroughEnabled>
+		<PortMappingEnabled t="b">0</PortMappingEnabled>
+		<PortMappingNumberOfEntries t="u" >0</PortMappingNumberOfEntries>
+		<MaxPortMappingEntries t="u"  >32</MaxPortMappingEntries>
+		<PortMapping t="o" MaxNode="MaxPortMappingEntries" CurNode="PortMappingNumberOfEntries">
+		</PortMapping>
+	</X_TWSZ-COM_Nat>
+	<X_TWSZ-COM_NATPRIO t="o" >
+		<Enable	t="b" 	>0</Enable>
+		<PriorityMappingNumberOfEntries	t="u"  >0</PriorityMappingNumberOfEntries>
+		<PriorityMapping t="o" 	MaxIdx="0">
+		</PriorityMapping>
+	</X_TWSZ-COM_NATPRIO>
+	<X_TWSZ-COM_Radio t="o"	>
+		<1 t="o">
+			<Enable t="b">1</Enable>
+            <Enableac t="b">1</Enableac>
+			<MaxBitRate t="s">Auto</MaxBitRate>
+			<Channel t="u">0</Channel>
+			<AutoChannelEnable t="b">1</AutoChannelEnable>
+			<Standard t="s" >bgn</Standard>
+			<PossibleChannels t="s"  Stat="1"></PossibleChannels>
+			<BasicDataTransmitRates t="s"></BasicDataTransmitRates>
+			<OperationalDataTransmitRates t="s"></OperationalDataTransmitRates>
+			<PossibleDataTransmitRates t="s"  Stat="1"></PossibleDataTransmitRates>
+			<InsecureOOBAccessEnabled t="b">1</InsecureOOBAccessEnabled>
+			<BeaconAdvertisementEnabled t="b">1</BeaconAdvertisementEnabled>
+			<RadioEnabled t="b">1</RadioEnabled>
+			<TransmitPowerSupported t="s" ></TransmitPowerSupported>
+			<TransmitPower t="u">100</TransmitPower>
+			<AutoRateFallBackEnabled t="b">1</AutoRateFallBackEnabled>
+			<LocationDescription t="s"></LocationDescription>
+			<RegulatoryDomain t="s">DE</RegulatoryDomain>
+			<ChannelsInUse t="s"  Stat="1"></ChannelsInUse>
+			<DeviceOperationMode t="s">InfrastructureAccessPoint</DeviceOperationMode>
+			<DistanceFromRoot t="u">0</DistanceFromRoot>
+			<WMMSupported t="b">1</WMMSupported>
+			<UAPSDSupported t="b">1</UAPSDSupported>
+			<PreambleType t="b">0</PreambleType>
+			<BeaconInterval t="u">100</BeaconInterval>
+			<RCSCTSThreshlod t="u">2346</RCSCTSThreshlod>
+			<PowerSave t="b" >0</PowerSave>
+			<DTIM t="u" >1</DTIM>
+			<OperatingChannelBandwidth t="s"  Cache="1">40</OperatingChannelBandwidth>
+			<BSSRelay t="b" >0</BSSRelay>
+			<FRAGLEN t="u" >2346</FRAGLEN>
+			<XR t="b" >0</XR>
+			<X_TWSZ-COM_MIMO t="b" >0</X_TWSZ-COM_MIMO>
+			<GuardInterval t="b">0</GuardInterval>
+			<X_TWSZ-COM_ConnFlag t="b">0</X_TWSZ-COM_ConnFlag>
+		</1>
+	</X_TWSZ-COM_Radio>
+	<X_TWSZ-COM_UPNP t="o" 	>
+		<Enable	t="b" >1</Enable>
+		<AdvertisementPeriod t="u" >30</AdvertisementPeriod>
+		<AdvertisementTTL t="u" >4</AdvertisementTTL>
+		<WANPathName t="s" 	> </WANPathName>
+		<LANPathName t="s" 	>InternetGatewayDevice.LANDevice.1</LANPathName>
+		<MaxBlacklistNumberOfEntries t="u"	 >32</MaxBlacklistNumberOfEntries>
+		<BlacklistNumberOfEntries t="u"  >0</BlacklistNumberOfEntries>
+		<Blacklist t="o" CurNode="BlacklistNumberOfEntries"	MaxNode="MaxBlacklistNumberOfEntries">
+		</Blacklist>
+		<PortMappingList t="o">
+		</PortMappingList>
+	</X_TWSZ-COM_UPNP>
+	<X_TWSZ-COM_SCHEDULES t="o"	>
+		<Enable	t="b" >1</Enable>
+		<MaxSchedEntries t="u"	>32</MaxSchedEntries>
+		<SchedNumberOfEntries t="u" >1</SchedNumberOfEntries>
+		<SchedEntry	t="o" MaxNode="MaxSchedEntries"	CurNode="SchedNumberOfEntries" MaxIdx="1">
+			<1 t="o">
+				<EndTime t="s">23:59</EndTime>
+				<StartTime t="s">00:00</StartTime>
+				<EnableAllTimes t="b">1</EnableAllTimes>
+				<SelectDays t="s">Sun,Mon,Tue,Wed,Thu,Fri,Sat,</SelectDays>
+				<EnableAllDays t="b">1</EnableAllDays>
+				<SchedUsed t="u">0</SchedUsed>
+				<SchedName t="s">Schedule</SchedName>
+				<Enable t="b">1</Enable>
+			</1>
+		</SchedEntry>
+	</X_TWSZ-COM_SCHEDULES>
+	<X_TWSZ-COM_URL_Filter t="o" >
+		<Enable t="b">0</Enable>
+		<LogEnable t="b">1</LogEnable>
+		<FilterMode t="s">Deny</FilterMode>
+		<TrustedIP t="s"></TrustedIP>
+		<MaxWhiteListEntryNumber t="u" >32</MaxWhiteListEntryNumber>
+		<WhiteListEntryNumber t="u" >0</WhiteListEntryNumber>
+		<WhiteList t="o" MaxNode="MaxWhiteListEntryNumber" CurNode="WhiteListEntryNumber">
+		</WhiteList>
+		<MaxBlackListEntryNumber t="u" >32</MaxBlackListEntryNumber>
+		<BlackListEntryNumber t="u" >0</BlackListEntryNumber>
+		<BlackList t="o" MaxNode="MaxBlackListEntryNumber" CurNode="BlackListEntryNumber">
+			<1 t="o">
+				<URL t="s"></URL>
+				<Description t="s"></Description>
+				<SchedulePath t="s">Always</SchedulePath>
+			</1>
+		</BlackList>
+	</X_TWSZ-COM_URL_Filter>
+	<X_TWSZ-COM_MAC_Filter t="o" >
+		<Enable	t="b">0</Enable>
+		<FilterMode	t="s">Deny</FilterMode>
+		<MaxWhiteListEntryNumber t="u"	>32</MaxWhiteListEntryNumber>
+		<WhiteListEntryNumber t="u" >0</WhiteListEntryNumber>
+		<WhiteList t="o" MaxNode="MaxWhiteListEntryNumber" CurNode="WhiteListEntryNumber">
+		</WhiteList>
+		<MaxBlackListEntryNumber t="u"	>32</MaxBlackListEntryNumber>
+		<BlackListEntryNumber t="u" >0</BlackListEntryNumber>
+		<BlackList t="o" MaxNode="MaxBlackListEntryNumber" CurNode="BlackListEntryNumber">
+		</BlackList>
+	</X_TWSZ-COM_MAC_Filter>
+	<X_TWSZ-COM_DDNS t="o" >
+		<Enable	t="b" >1</Enable>
+		<MaxDDNSList t="u" >1</MaxDDNSList>
+		<DDNSList t="o" MaxNode="MaxDDNSList">
+            <1 t="o">
+				<Enable t="b">0</Enable>
+				<DDNSState t="s">Unconfigure</DDNSState>
+				<ShowDDNSStateValue t="s">Unconfigure</ShowDDNSStateValue>
+				<DDNSProvider t="s">dyndns.org</DDNSProvider>
+				<Hostname t="s"></Hostname>
+				<WANConnectionID t="s">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1</WANConnectionID>
+				<WANInterfaceState t="s"  NeedSave="0">Disconnected</WANInterfaceState>
+				<Username t="s"></Username>
+				<Password t="s"></Password>
+				<Method t="s" >http</Method>
+				<CgiPath t="s" >/gnudip/cgi-bin/gdipupdt.cgi</CgiPath>
+				<DdnsHost t="s">ns1.cammail.net</DdnsHost>
+				<Email t="s">Email</Email>
+				<Hash t="s">VEk5b1BVTVRTTUlBQUFSQmNJMDo0OTg1MTg2</Hash>
+				<Key t="s">Key</Key>
+			</1>
+		</DDNSList>
+	</X_TWSZ-COM_DDNS>
+	<TracerouteDiagnostics t="o">
+		<TracerouteState t="s"></TracerouteState>
+		<Interface t="s"></Interface>
+		<Host t="s"></Host>
+		<WaitTime t="u"></WaitTime>
+		<MaxTTL	t="u"></MaxTTL>
+		<TracertResult t="s"	></TracertResult>
+	</TracerouteDiagnostics>
+	<X_TWSZ-COM_RouteInfo t="o"	MaxIdx="0" >
+	</X_TWSZ-COM_RouteInfo>
+	<X_TWSZ-COM_AutoUpdate t="o">
+		<Enable	t="b">0</Enable>
+		<Protocol t="s">http</Protocol>
+		<Host t="s"></Host>
+		<Port t="u">80</Port>
+		<Directory t="s"></Directory>
+		<UserName t="s"></UserName>
+		<Password t="s"></Password>
+		<CheckListFile t="s" >cklist.lst</CheckListFile>
+		<IMMEDUpdate t="b">0</IMMEDUpdate>
+		<UPDATEPROC	t="u" >0</UPDATEPROC>
+		<CURStatus t="s" ></CURStatus>
+	</X_TWSZ-COM_AutoUpdate>
+	<X_TWSZ-COM_ParentCtl t="o">
+		<Enable	t="b">0</Enable>
+		<MapNumberOfEntries t="u" >0</MapNumberOfEntries>
+		<MAXMapNumberOfEntries t="u" >32</MAXMapNumberOfEntries>
+		<Mapping t="o" MaxIdx="0"	MaxNode="MAXMapNumberOfEntries" CurNode="MapNumberOfEntries">																																		
+		</Mapping>
+	</X_TWSZ-COM_ParentCtl>	
+	<X_TWSZ-COM_Diagnostics t="o">
+		<DiagnosticsState t="s"></DiagnosticsState>
+		<Interface t="s"></Interface>
+		<CheckWanConnection t="s">0</CheckWanConnection>
+		<Status t="o">
+			<ADSLSynchronization t="s" ></ADSLSynchronization>
+			<ATMF5SegmentLoopback t="s" ></ATMF5SegmentLoopback>
+			<ATMF5EndToEndLoopback t="s" ></ATMF5EndToEndLoopback>
+			<ATMF4SegmentLoopback t="s" ></ATMF4SegmentLoopback>
+			<ATMF4EndToEndLoopback t="s" ></ATMF4EndToEndLoopback>
+			<IPPingGateway t="s" ></IPPingGateway>
+			<IPPingPrimaryDNS t="s" ></IPPingPrimaryDNS>
+			<WANConnectionType t="s" ></WANConnectionType>			
+		</Status>
+		<AutoPVCSearch t="o">
+			<Enable t="b">0</Enable>
+			<SearchPVC t="s"></SearchPVC>
+			<FoundPVC t="s" ></FoundPVC>
+			<DefaultPVCList t="s" >0/35,8/35,0/33,0/43,0/51,0/59,8/43,8/51,8/59</DefaultPVCList>
+		</AutoPVCSearch>
+	</X_TWSZ-COM_Diagnostics>
+	<X_TWSZ-COM_TrafficMeter t="o">
+		<Enable	t="b">0</Enable>
+		<TrffcVlmCtl t="b">1</TrffcVlmCtl>
+		<TrffcVlmCtlOpt t="s">NoLimit</TrffcVlmCtlOpt>
+		<TrffcVlmMonthlyLimit t="u">0</TrffcVlmMonthlyLimit>
+		<TrffcVlmRndUpVlmPreCnn t="u">0</TrffcVlmRndUpVlmPreCnn>
+		<CnnTimeCtl t="b">0</CnnTimeCtl>
+		<CnnTimeMonthlyLimit t="u">0</CnnTimeMonthlyLimit>
+		<TrffcCnter t="s"></TrffcCnter>
+		<TrffcCnterAct t="b" Stat="0">0</TrffcCnterAct>
+		<TrffcCtlOver t="u">0</TrffcCtlOver>
+		<TrffcCtlDiscnn t="b">0</TrffcCtlDiscnn>
+		<TrffcCtlDiscnnAct Cache="1" t="s">Connect</TrffcCtlDiscnnAct>
+		<TrffcLimitWarning t="s">NoWarning</TrffcLimitWarning>
+		<TrffcLimitWarningReached t="s">NoWarning</TrffcLimitWarningReached>
+		<TrffcStt t="o">
+			<StartDataAndTime t="u"  >0</StartDataAndTime>
+			<CurrDataAndTime t="u"  >0</CurrDataAndTime>
+			<TrffcVlmLeft t="u"  >0</TrffcVlmLeft>
+			<TdCnnTime t="u"  >0</TdCnnTime>
+			<TdUpVlm t="u"  >0</TdUpVlm>
+			<TdUpAvg t="u"  >0</TdUpAvg>
+			<TdDownVlm t="u"  >0</TdDownVlm>
+			<TdDownAvg t="u"  >0</TdDownAvg>
+			<TdTotalVlm t="u"  ></TdTotalVlm>
+			<TdTotalAvg t="u"  ></TdTotalAvg>
+			<YdCnnTime t="u"  >0</YdCnnTime>
+			<YdUpVlm t="u"  >0</YdUpVlm>
+			<YdUpAvg t="u"  >0</YdUpAvg>
+			<YdDownVlm t="u"  >0</YdDownVlm>
+			<YdDownAvg t="u"  >0</YdDownAvg>
+			<YdTotalVlm t="u"  >0</YdTotalVlm>
+			<YdTotalAvg t="u"  >0</YdTotalAvg>
+			<WkCnnTime t="u"  >0</WkCnnTime>
+			<WkUpVlm t="u"  >0</WkUpVlm>
+			<WkUpAvg t="u"  >0</WkUpAvg>
+			<WkDownVlm t="u"  >0</WkDownVlm>
+			<WkDownAvg t="u"  >0</WkDownAvg>
+			<WkTotalVlm t="u"  >0</WkTotalVlm>
+			<WkTotalAvg t="u"  >0</WkTotalAvg>
+			<MthCnnTime t="u"  >0</MthCnnTime>
+			<MthUpVlm t="u"  >0</MthUpVlm>
+			<MthUpAvg t="u"  >0</MthUpAvg>
+			<MthDownVlm t="u"  >0</MthDownVlm>
+			<MthDownAvg t="u"  >0</MthDownAvg>
+			<MthTotalVlm t="u"  >0</MthTotalVlm>
+			<MthTotalAvg t="u"  >0</MthTotalAvg>
+			<LmthCnnTime t="u"  >0</LmthCnnTime>
+			<LmthUpVlm t="u"  >0</LmthUpVlm>
+			<LmthUpAvg t="u"  >0</LmthUpAvg>
+			<LmthDownVlm t="u"  >0</LmthDownVlm>
+			<LmthDownAvg t="u"  >0</LmthDownAvg>
+			<LmthTotalVlm t="u"  >0</LmthTotalVlm>
+			<LmthTotalAvg t="u"  >0</LmthTotalAvg>			
+		</TrffcStt>
+		<TrffcFlushTime t="u"  >10</TrffcFlushTime>
+	</X_TWSZ-COM_TrafficMeter>
+</InternetGatewayDevice>
+

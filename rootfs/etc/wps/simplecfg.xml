@@ -1,0 +1,29 @@
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+        <specVersion>
+                <major>1</major>
+                <minor>0</minor>
+        </specVersion>
+        <URLBase>http://192.168.1.1:52881</URLBase>
+        <device>
+                <deviceType>urn:schemas-wifialliance-org:device:WFADevice:1</deviceType>
+                <friendlyName>Realtek Wireless AP</friendlyName>
+                <manufacturer>Realtek Semiconductor Corp.</manufacturer>
+                <manufacturerURL>http://www.realtek.com/</manufacturerURL>
+                <modelDescription>WLAN Access Point</modelDescription>
+                <modelName>RTL8xxx</modelName>
+                <modelNumber>EV-2009-02-06</modelNumber>
+                <modelURL>http://www.realtek.com/</modelURL>
+                <serialNumber>123456789012347</serialNumber>
+                <UDN>uuid:63041253-1019-2006-1228-00e04c8196c1</UDN>
+                <UPC>112233445566</UPC>
+                <serviceList>
+                        <service>
+                                <serviceType>urn:schemas-wifialliance-org:service:WFAWLANConfig:1</serviceType>
+                                <serviceId>urn:wifialliance-org:serviceId:WFAWLANConfig1</serviceId>
+                                <SCPDURL>/simplecfgservice.xml</SCPDURL>
+                                <controlURL>/upnp/control/WFAWLANConfig1</controlURL>
+                                <eventSubURL>/upnp/event/WFAWLANConfig1</eventSubURL>
+                        </service>
+                </serviceList>
+        </device>
+</root>

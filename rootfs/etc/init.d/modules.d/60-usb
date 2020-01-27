@@ -1,0 +1,5 @@
+#ehci-hcd
+#uhci-hcd
+#ohci-hcd
+#usb-storage
+#usbserial

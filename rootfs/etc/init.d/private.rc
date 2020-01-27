@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# start inetd 
+if [ -x /usr/sbin/inetd ]; then
+  /usr/sbin/inetd &
+fi
+
+

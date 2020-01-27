@@ -1,0 +1,62 @@
+#!/bin/sh
+
+. /etc/functions.sh
+
+echo "@@@@@@@Welcome to TBS System@@@@@@@"
+
+###set environment variable
+source /etc/init.d/env.rc
+
+date -s "2011.01.01-12:00:00"
+
+###mount filesystem
+/etc/init.d/filesystem.rc
+
+if [ -x /etc/init.d/mkdev.rc ]; then
+  /etc/init.d/mkdev.rc
+fi
+
+###install usb driver
+#if [ -x /etc/init.d/usb.rc ]; then
+#  /etc/init.d/usb.rc
+#fi
+
+#load_modules /etc/init.d/modules.d/*
+
+###install wlan driver
+#if [ -x /etc/init.d/wlan.rc ]; then
+#  /etc/init.d/wlan.rc
+#fi
+
+cp -rf /etc/wps /var/wps
+
+###install dsl driver
+#if [ -x /etc/init.d/dsl.rc ]; then
+#  /etc/init.d/dsl.rc
+#fi
+
+###config network
+ifconfig lo 127.0.0.1 up
+echo 1 > /proc/sys/net/ipv4/ip_forward
+#echo 1 > /proc/sys/net/ipv6/conf/all/forwarding
+echo 3 > /proc/sys/net/ipv4/conf/all/force_igmp_version
+echo 100 > /proc/sys/net/unix/max_dgram_qlen
+echo localhost > /proc/sys/kernel/hostname
+
+if [ -x /etc/init.d/network.rc ]; then
+	/etc/init.d/network.rc
+fi
+
+###init system settings
+if [ -x /etc/init.d/sysctl.rc ]; then
+  /etc/init.d/sysctl.rc
+fi
+
+###start daemon
+/etc/init.d/daemon.rc
+
+###Others
+if [ -x /etc/init.d/private.rc ]; then
+	/etc/init.d/private.rc
+fi
+

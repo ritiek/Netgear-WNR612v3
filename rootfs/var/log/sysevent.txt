@@ -1,0 +1,22 @@
+2011-01-01 12:00:33 [5] syslog: [upnp] Upnp was opened
+2011-01-01 12:00:33 [5] syslog: [Internet connected] WAN Physical link:Down
+2011-01-01 12:00:33 [5] syslog: [dhcp] Dhcp assign 192.168.1.2 to b0:d5:9d:64:22:4a
+2011-01-01 12:00:33 [5] syslog: [dhcp] Dhcp assign 192.168.1.2 to b0:d5:9d:64:22:4a
+2011-01-01 12:20:30 [5] syslog: [dhcp] Dhcp assign 192.168.1.2 to b0:d5:9d:64:22:4a
+2011-01-01 12:53:14 [5] syslog: [Logger] Router start time is Sat Jan  1 11:59:56 2011 
+2011-01-01 12:53:14 [5] syslog: [AUTH] 192.168.1.2 login success
+2011-01-01 12:58:54 [5] syslog: [dhcp] Dhcp assign 192.168.1.2 to b0:d5:9d:64:22:4a
+2011-01-01 12:58:57 [5] syslog: [dhcp] Dhcp assign 192.168.1.2 to b0:d5:9d:64:22:4a
+2011-01-01 13:22:55 [5] syslog: [AUTH] User admin session timeout and auto logout
+2011-01-01 12:00:33 [5] syslog: [upnp] Upnp was opened
+2011-01-01 12:00:33 [5] syslog: [Internet connected] WAN Physical link:Down
+2011-01-01 12:00:33 [5] syslog: [dhcp] Dhcp assign 192.168.1.3 to b0:d5:9d:64:22:4a
+2011-01-01 12:00:33 [5] syslog: [upnp] Upnp was opened
+2011-01-01 12:00:33 [5] syslog: [Internet connected] WAN Physical link:Down
+2011-01-01 12:00:33 [5] syslog: [dhcp] Dhcp assign 192.168.1.3 to b0:d5:9d:64:22:4a
+2011-01-01 12:03:59 [5] syslog: [Logger] Router start time is Sat Jan  1 11:59:56 2011 
+2011-01-01 12:03:59 [5] syslog: [AUTH] 192.168.1.3 login success
+2011-01-01 12:05:03 [5] syslog: [Logger] Router start time is Sat Jan  1 11:59:56 2011 
+2011-01-01 12:05:03 [5] syslog: [AUTH] 192.168.1.3 login success
+2011-01-01 12:08:56 [5] syslog: [dhcp] Dhcp assign 192.168.1.3 to b0:d5:9d:64:22:4a
+2011-01-01 12:09:00 [5] syslog: [dhcp] Dhcp assign 192.168.1.3 to b0:d5:9d:64:22:4a

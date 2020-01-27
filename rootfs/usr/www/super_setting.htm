@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+	p{ margin:0; padding:0;}
+	.wrap{ width:800px; margin:0 auto; color:#333; }
+	.topic{  border-bottom:2px #9D98FF solid; height:36px; line-height:36px; -x-system-font:none;color:#9D98FF; font-family:arial; font-size:17px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:bold;left:0;top:0;width:100%;}
+	.tip{ margin-top:10px; text-indent:2em; background:#eaebec; padding:10px; line-height:24px;}
+	.saveBinOkShowMsg{ font-weight:bold;font-size: 22px; text-align:center; color:red }
+	.info_s{ width:780px;  padding:10px;}
+	.info_s p{ line-height:24px;}
+	.info_s .title{font-weight:bold;}
+	.info_d{ width:780px;  padding:10px; background:#eaebec;}
+	.info_d p{ line-height:24px;}
+	.info_d .title{font-weight:bold;}
+	.ipt{ margin-left:20px;}
+	.file{ width:350px;}
+	.select{ width:60px;}
+	.submitBtn {  font-family: Arial; font-size: 11px;text-align:center; vertical-align:middle ;border-color: #cccccc; background-color: #cccccc; color: #333333}
+	.gap{margin-top:10px;}
+	.redOk{ color:red;}
+</style>
+<script type="text/javascript">
+ <!--
+//if upload language pack ok. this flag will be setted to 1 by upg_cgi
+function uisubmit()
+{
+	var _region = document.getElementById("INPUT_region").value;
+		
+	document.getElementById('region').value = _region;
+
+	document.getElementById('regionform').submit();
+}
+
+function defsubmit()
+{
+	if(document.getElementById("check_gui").checked == true)
+	{
+		document.getElementById("defgui").name="no_gui"
+	}			
+	else 
+	{
+		document.getElementById("defgui").name="en_gui"
+	}
+	
+	document.getElementById('deflang').submit();
+}
+
+/*Start 危险区域. 勿做修改; 会影响后台功能  liuchao*/
+
+//上传语言包成功的标志. 如果成功, 后台会将这个值设置为1. 失败为2 liuchao
+var deflangFlag = 0;
+
+//设置默认语言成功标识. 如果成功, 后台会将这个值设置为1. 失败为2 liuchao
+var setRegionFlag = 0;
+
+//烧录Bin文件ok  如果成功, 后台会将这个值设置为1. 失败为2 liuchao
+var saveBinOkFlag = 0;
+
+/*End 危险区域. 勿做修改; 会影响后台功能  liuchao*/
+
+function uiOnload(){
+
+	if(saveBinOkFlag == 1){
+		//成功. 给出提示. 65s后跳转
+		document.getElementById("saveBinOkShowMsg").style.display  = "";
+		document.getElementById("saveBinOkHide").style.display  = "none";
+		setTimeout("autoReload()",65000);
+		return;
+	}else if(saveBinOkFlag == 2){
+		document.getElementById("saveBinOkShowMsg").style.display  = "none";
+		document.getElementById("saveBinOkHide").style.display  = "";
+		//失败提示信息
+		document.getElementById("checkBinUpdateFaild").style.display  = ""; 
+	}else{
+		document.getElementById("saveBinOkShowMsg").style.display  = "none";
+		document.getElementById("saveBinOkHide").style.display  = "";
+	}
+
+	//默认语言
+	if(deflangFlag == 1){
+		document.getElementById("checkDeflangUpload").style.display  = "";
+		document.getElementById("checkDeflangUploadFaild").style.display  = "none";
+	}else if(deflangFlag == 2){
+		document.getElementById("checkDeflangUpload").style.display  = "none";
+		document.getElementById("checkDeflangUploadFaild").style.display  = "";
+	}else{
+		document.getElementById("checkDeflangUpload").style.display  = "none";
+		document.getElementById("checkDeflangUploadFaild").style.display  = "none";
+	}
+	
+	if(setRegionFlag == 1){
+		document.getElementById("checkRegionCodeSetting").style.display  = "";
+		document.getElementById("checkRegionCodeSettingFaild").style.display  = "none";
+	}else if(setRegionFlag == 2){
+		document.getElementById("checkRegionCodeSetting").style.display  = "none";
+		document.getElementById("checkRegionCodeSettingFaild").style.display  = "";
+	}else{
+		document.getElementById("checkRegionCodeSetting").style.display  = "none";
+		document.getElementById("checkRegionCodeSettingFaild").style.display  = "none";
+	}
+	
+}
+
+function autoReload(){
+	document.location.href = "http://192.168.1.1/super_setting.htm";
+}
+window.onload=uiOnload;
+ -->
+</script>
+<title>NETGEAR SUPER SETTING</title>
+</head>
+<body>
+<div class="wrap">
+	<div class="topic">Super Setting</div>
+    <p class="tip">Welcome to use NETGEAR super-setting! If you want to use, the following rules must be followed.</p>
+    <div id="saveBinOkShowMsg" class="saveBinOkShowMsg"> 
+		<p> Do not Power off. </p>
+		<p> Wait for 3 minutes. This page will reload when upgrade is done.</p>
+	</div>
+	<form id="deflang" method="post" action="/cgi-bin/webupg" enctype="multipart/form-data">
+	<div id="saveBinOkHide">
+		<div class="info_s">
+			<p class="title">1.Import the language packet:</p>
+			<p class="ipt"> Step 1:Obtain a language packet file from Netgear!</p>
+			<p class="ipt"> Step 2: Click the "Browse" button to locate the language packet file.</p>
+			<p class="ipt"> Step 3: Select the 'As the default language' if you want set the language as default.</p>
+			<p class="ipt"> Step 4: Click the 'Upload'button once to upload the language file.</p>
+			<br>
+			<p class="ipt"><input type="file" name="DflangUpload" value="browse" class="file"/>
+				<input type="hidden" name="defgui" id="defgui" value="" />
+				<span>As the default language</span>
+				<input type="checkbox" id="check_gui" checked="true" name="asdef" />
+				<span id = "checkDeflangUpload" style="display:none;" class="redOk">Upload OK</span>
+				<span id = "checkDeflangUploadFaild" style="display:none;" class="redOk">Upload Faild</span>
+			</p>
+			<p style="text-align:center; margin-top:8px;">
+		   <input class="submitBtn" type="button" value='Upload' onclick="defsubmit()"  style="width:120px;"/></p>
+			<p class="ipt">(Notice: After uploading thelanguage pack, please restore the factory settings!)</p>
+		</div>
+		</form>
+		<form id="" method="post" action="/cgi-bin/webupg" >
+		<div class="info_d">
+			<p class="title">2.Region Code:</p>
+			<p class="tip">
+			<select id="INPUT_region" name="name" size="1" >
+						<option value="WW">WW</option>
+						<option value="HK">HK</option>
+						<option value="PR">PR</option>
+						<option value="RU">RU</option>
+						<option value="BZ">BZ</option>
+						<option value="KO">KO</option>
+						<option value="IN">IN</option>
+						<option value="CN">CN</option>
+					</select>
+			<input type="button" name="" value='Apply' onclick="uisubmit()" >
+			 <span id = "checkRegionCodeSetting" style="display:none;" class="redOk">Set Region Code Ok</span>
+			 <span id = "checkRegionCodeSettingFaild" style="display:none;" class="redOk">Set Region Code Faild</span>
+			</p>
+			<p class="ipt">(Notice: After modify the region code, please restore the factory settings!)</p>
+		</div>
+		</form>
+		
+		<form id="" method="post" action="/cgi-bin/webupg" enctype="multipart/form-data">
+		<div class="info_s">
+			<p class="title">3.Bin File Uptade:</p>
+			<p class="ipt"> Step 1:Obtain an updated software bin file from Netgear, just BIN file!</p>
+			<p class="ipt"> Step 2: Click the "Browse" button to locate the BIN file.</p>
+			<p class="ipt"> Step 3: Click the 'Upload'button once to upload the new system file.</p>
+			<p class="ipt"> NOTE: The update process takes about 3 minutes to complete, and your Wireless Router will reboot.</p>
+			<p class="ipt">
+			   <input type="file" name="BINFWUpload" value="browse" class="file" >
+			   <input type="submit" value='Upload' style="width:120px;"/>
+			   <span id = "checkBinUpdateFaild" style="display:none;" class="redOk"> Bin Update Faild</span>
+			</p>
+		</div>
+		</form>
+		
+		<form id="regionform" method="post" action="/cgi-bin/webupg">
+			<input type="hidden" name="name" value="region" />
+			<input type="hidden" name="region" id="region" value="" />
+		</form>
+	<div>
+    
+</div>
+</body>
+</html>
+

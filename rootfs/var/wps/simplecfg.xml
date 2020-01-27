@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+	<specVersion>
+		<major>1</major>
+		<minor>0</minor>
+	</specVersion>
+	<URLBase>http://192.168.1.1:52881</URLBase>
+	<device>
+		<deviceType>urn:schemas-wifialliance-org:device:WFADevice:1</deviceType>
+		<friendlyName>Netgear Wireless AP</friendlyName>
+		<manufacturer>Netgear Corp.</manufacturer>
+		<manufacturerURL>http://www.netgear.com/</manufacturerURL>
+		<modelDescription>WLAN Access Point</modelDescription>
+		<modelName>Netgear AP</modelName>
+		<modelNumber>EV-2012-08-04</modelNumber>
+		<modelURL>http://www.netgear.com/</modelURL>
+		<serialNumber>123456789012347</serialNumber>
+		<UDN>uuid:63041253-1019-2006-1228-00000000004c</UDN>
+		<UPC>112233445566</UPC>
+		<serviceList>
+			<service>
+				<serviceType>urn:schemas-wifialliance-org:service:WFAWLANConfig:1</serviceType>
+				<serviceId>urn:wifialliance-org:serviceId:WFAWLANConfig1</serviceId>
+				<SCPDURL>/simplecfgservice.xml</SCPDURL>
+				<controlURL>/upnp/control/WFAWLANConfig1</controlURL>
+				<eventSubURL>/upnp/event/WFAWLANConfig1</eventSubURL>
+			</service>
+		</serviceList>
+	</device>
+</root>

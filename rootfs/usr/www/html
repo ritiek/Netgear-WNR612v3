@@ -1,0 +1,153 @@
+<? if eq - $var:subpage
+`	<? setvar var:realpage $var:page?>
+	<?if eq 1 <?error found?>
+	`	<? if neq - $var:errorpage
+		`	<?setvar var:realpage $var:errorpage?>`
+		?>
+	?>
+`
+`	<? if eq 0 <?error found?>
+	`	<?setvar var:realpage $var:subpage?>`
+	`	<? if neq - $var:errorpage
+		`	<?setvar var:realpage $var:errorpage?>`
+		?>`
+	?>
+`?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><link rel="stylesheet" href="/html/skin/basic.css">
+<script language="javascript" type="text/javascript" src="/html/js/basic.js"></script>
+<script language="javascript" type="text/javascript" src="/html/js/top.js"></script>
+<script language="javascript" type="text/javascript" src="/html/js/funcs.js"></script>
+<title id="Router_Name"></title><meta http-equiv=content-type content='text/html; charset=UTF-8'>
+<script type="text/javascript"><!--
+var G_RouterName = '<?get :InternetGatewayDevice.DeviceInfo.HardwareVersion?>';
+var _node = document.getElementById('Router_Name');
+if(_node!= null)
+{
+	_node.innerHTML = 'NETGEAR Router '+G_RouterName;
+}
+--></script>
+<meta content="MSHTML 6.00.2800.1141" name="GENERATOR"></head>
+<body onload="loadvalue();" onResize="change_size();">
+<script>
+if(top!=self)top.location.href = self.location.href;
+var enable_action=1;
+var enabled_wds=0;
+var enabled_wps=1;
+var menu_Type="basic";
+var charcount=0;
+var file_version=0;
+var file_region="";
+var netgear_version=0;
+var netgear_region="NA"
+var help_info="_index";
+var wps_charcount=0;
+var wps_endis_configured=1;     // 1 for unconfigured, 5 for configured
+var wps_an_endis_configured=1;  // 1 for unconfigured, 5 for configured
+var folder_path="";     //save the browser's folder path, and show in USB creat/edit page
+var qos_check_time=0;
+var pin_refresh_time=0;
+var select_basic="1";
+var select_type="1";
+var endis_wl_radio='1';
+var endis_wla_radio='1';
+var wps_process=0;
+var enable_ap_flag="0";//bug 24666 according to the page 128 of spec 2.0,add AP mode
+var ParentalControl = "0";
+
+
+var logs_checkbox_flag = 1;
+var thank_login_flag = 0;
+
+var usb_router_flag = 1; 
+var readyShareSupportedLevel = 7; 
+var an_router_flag = 1;
+var wireless_schedule_flag = 1;
+var guest_router_flag = 1;
+var traffic_router_flag=1;
+var qos_router_flag=1;
+var multi_lang_router_flag=1;
+var wds_router_flag=1;
+var video_router_flag=1;
+var transmit_router_flag=1;
+var pppoe_mac_router_flag=1;
+var ddns_oray_router_flag=0;
+var ddns_wildcards_flag=0;
+var dfs_channel_router_flag=0;
+var russian_ppp_flag=0;
+var russian_pppoe_flag=0;
+var l2tp_flag=1;
+var igmp_flag=1;
+var pppoe_intranet_flag=1;
+var dns_third_flag=1;
+var tr069_router_flag=0;
+var block_sites_flag=1;
+var ipv6_flag=1;
+var mode_is_300=1;
+var is_vc_release=0;
+var vpn_show_flag=1;
+//var router_type="RangeMax(TM)";
+var max_bandwidth=1000;
+var wire_iso_flag=1;
+var bigpond_flag=0;
+var apmode_flag=1;
+var tivo_flag=1;
+var auto_conn_flag=1;
+var bridge_iptv_flag=1;
+var parental_ctrl_flag=1;
+var dfs_channel2_router_flag=1;
+var new_multiple_lang=1;
+
+var gui_region="English";
+
+
+function loadvalue()
+{
+	setFooterClass();
+	change_size();
+	document.getElementById("guest").style.display="";	
+	click_action("internet");	
+}
+
+</script>
+
+<div id="top">
+		<iframe name="topframe" id="topframe" src="/cgi-bin/webproc?getpage=html/top.html&var:menu=<? echo $var:menu?>&var:page=<?echo $var:realpage?>" scrolling="no" allowtransparency="true" height="100%" width="100%" frameborder="0"></iframe>
+</div>
+
+<div id="container" class="container_center">
+		<div id="middle">
+				<div id="menu">
+					<div id="home" class="basic_button_purple" onclick="click_action('home');"><b><span id="lang_basic_home">Home</span></b></div>
+					<div id="internet" class="basic_button" onclick="click_action('internet');"><b><span id="lang_wansetup">Internet</span></b></div>
+					<div id="wireless" class="basic_button" onclick="click_action('wireless');"><b><span id="lang_wirelesssetup">Wireless</span></b></div>
+					<div id="attached" class="basic_button" onclick="click_action('attached');"><b><span id="lang_attacheddevices">Attached Devices</span></b></div>
+					<div id="parental" class="basic_button" onclick="click_action('parental');"><b><span id="lang_basic_parental">Parental Controls</span></b></div>
+					<!--div id="readyshare" class="basic_button" onclick="click_action('readyshare');"><b><span>ReadySHARE</span></b></div-->
+					<div id="guest" class="basic_button" style="display:none" onclick="click_action('guest');"><b><span id="lang_wirelessguest">Guest Network</span></b></div>
+				</div>
+				<!--div id="mini_height"> </div-->
+				<div id="formframe_div">
+						<iframe name="formframe" id="formframe" src="/cgi-bin/webproc?getpage=html/page/WLG_wireless.htm&var:page=*" allowtransparency="true" height="100%" width="100%" scrolling="no" frameborder="0" ></iframe>
+				</div>
+		
+				<div id="footer" class="footer">
+						<img class="footer_img" src="/html/skin/image/footer/footer.gif">
+						<div id="support">
+							<b><span id="lang_help_support"> HELP & SUPPORT</span></b> &nbsp;
+								<a target="_blank" href="http://documentation.netgear.com/wnr612v3/enu/202-11019-01/index.htm"><span id="lang_basic_doc">Documentation</span></a> | 
+								<a target="_blank" href="http://support.netgear.com"><span id="lang_basic_support">Support@NETGEAR.com</span></a> | 
+								<a target="_blank" href="http://kb.netgear.com/app/answers/detail/a_id/12923"><span id="lang_basic_faq">Router FAQ</span></a>
+						</div>
+						<div id="search" align=right>
+							<b><span id="lang_basic_search">SEARCH HELP </span></b>
+							<input type="text" name="search" value="Enter Search Item" onkeypress="detectEnter('num',event);" onFocus="this.select();" >
+							<input id="search_button" class="search_button" type="button" name="dosearch" value="GO" onClick="do_search();">
+						</div>
+				</div>
+		</div>
+</div>
+<form name="uiPostForm_basic" id="uiPostForm" method="post" action="webproc"></form>
+</body>
+</html>
